@@ -11,6 +11,7 @@ from PyQt6.QtWidgets import *
     
 class PdfManager():
   usePageLimit = True
+  pageLimit = 95
   currentWord = ""
   DoingKanji = False
   DoingHiragana = False
@@ -74,16 +75,15 @@ class PdfManager():
       
     def Load(app, fileName):
       reader = PdfReader(fileName)
-      pageLimit = 15
       progress = 0
       PdfManager.kanji.append("*")
       for page in reader.pages:
         progress +=1
         if PdfManager.usePageLimit:
-          app.updateProgressBar((progress/pageLimit) * 100)
+          app.updateProgressBar(int(progress/PdfManager.pageLimit * 100))
         else:
-          app.updateProgressBar(progress/len(reader.pages))
-        if PdfManager.usePageLimit and progress == pageLimit:
+          app.updateProgressBar(int(progress/len(reader.pages) * 100))
+        if PdfManager.usePageLimit and progress == PdfManager.pageLimit:
           break
         text = page.extract_text()
         for word in text.split():
@@ -138,6 +138,7 @@ class PdfManager():
             newList[i].append("*")
     df = pd.DataFrame(newList)
     df.to_excel("WordListMaker//output.xlsx", sheet_name="output")
+    app.updateFileStatus(2)
   
   def convertToPdf(app):
     def Copy(pdf, content, size):
@@ -163,6 +164,7 @@ class PdfManager():
       for y in range(size):
           for x in range(3):
               table.get_celld()[(20 - y,x)].set_alpha(0)
+              table.get_celld()[(20 - y,x)].get_text().set_color("white")
       pdf.savefig()
       plt.close()
     
@@ -200,8 +202,9 @@ class PdfManager():
       for page in range(len(pageCount)-2):
           if page == len(pageCount)-3:
               Copy(pdf,newList[page],20 - newList[len(pageCount)-1])
+              #Copy(pdf,newList[page],20 - newList[3])
           else:
-              Copy(pdf,newList[page],0)
+            Copy(pdf,newList[page],0)
           app.updateProgressBar(int(page / (len(pageCount)-2) * 50) + 50)
     app.updateFileStatus(2)
     
