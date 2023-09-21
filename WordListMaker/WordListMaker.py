@@ -7,8 +7,10 @@ from PyQt6.QtCore import *
 from PyQt6.QtGui import *
 from PyQt6.QtWidgets import *
 
+from ExcelManager import *
 from PdfManager import *
 from KatakanaRemover import *
+
 
 class MainWindow(QMainWindow):
     japanize_matplotlib.japanize()
@@ -44,6 +46,10 @@ class MainWindow(QMainWindow):
         btn3 = QPushButton("Remove katakana words")
         btn3.clicked.connect(partial(KatakanaRemover.removeKatakana, self))
         layout.addWidget(btn3)
+        
+        btn4 = QPushButton("Shuffle Excel list")
+        btn4.clicked.connect(partial(ExcelManager.shuffleList, self))
+        layout.addWidget(btn4)
 
     def getExcel(self):
         fname = QFileDialog.getOpenFileName(

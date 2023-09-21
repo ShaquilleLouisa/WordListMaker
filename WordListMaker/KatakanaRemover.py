@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas
 import re
 
 class KatakanaRemover():
@@ -47,7 +47,7 @@ class KatakanaRemover():
         index+=1
       app.updateProgressBar(int(i / longestList * 100))
     
-    df = pd.DataFrame(outputList)
+    df = pandas.DataFrame(outputList)
     df.to_excel("WordListMaker//output.xlsx", sheet_name="output")
     app.updateFileStatus(2)
     

@@ -1,3 +1,4 @@
+import japanize_matplotlib
 import re
 import math
 import pandas as pd
@@ -10,6 +11,7 @@ from PyQt6.QtGui import *
 from PyQt6.QtWidgets import *
     
 class PdfManager():
+  japanize_matplotlib.japanize()
   usePageLimit = True
   pageLimit = 95
   currentWord = ""
