@@ -1,16 +1,14 @@
 import pandas
-import re
 
-class KatakanaRemover():
-  def removeKatakana(app):
-    def WordhasKatakana(word):
-      for c in str(word):
-        if re.search(u"[\u30A0-\u30FF]", c):
-          return True
-      return False
-    
+class WordRemover():
+  def removeWords(app, getWords):
+    def wordIsInRemoveList(word):
+      return word in wordList
+    wordList = getWords().split()
     list = [[]]
     list = app.getExcel()
+    if len(list) == 0 or len(wordList) == 0:
+      return
     app.updateFileStatus(1)
     newList = [[]]
     newList.append(list[0])
@@ -26,22 +24,22 @@ class KatakanaRemover():
     index = 0
     for i in range(longestList):
       outputList.append([])
-      if not WordhasKatakana(newList[2][i]):
+      if not wordIsInRemoveList(newList[2][i]):
         if len(newList[1]) > i:
             outputList[index].append(newList[1][i])
         else:
             outputList[index].append("*")
-      if not WordhasKatakana(newList[2][i]):
+      if not wordIsInRemoveList(newList[2][i]):
         if len(newList[2]) > i:
             outputList[index].append(newList[2][i])
         else:
             outputList[index].append("*")  
-      if not WordhasKatakana(newList[2][i]):
+      if not wordIsInRemoveList(newList[2][i]):
         if len(newList[3]) > i:
             outputList[index].append(newList[3][i])
         else:
             outputList[index].append("*")
-      if WordhasKatakana(newList[2][i]):
+      if wordIsInRemoveList(newList[2][i]):
         pass
       else:
         index+=1
@@ -50,5 +48,3 @@ class KatakanaRemover():
     df = pandas.DataFrame(outputList)
     df.to_excel("output.xlsx", sheet_name="output")
     app.updateFileStatus(2)
-    
-    

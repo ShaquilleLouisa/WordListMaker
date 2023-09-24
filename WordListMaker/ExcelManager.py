@@ -4,7 +4,8 @@ import random
 class ExcelManager():
   def shuffleList(app):
     list = app.getExcel()
-    
+    if len(list) == 0:
+        return
     app.updateFileStatus(1)
     
     newList = [[]]

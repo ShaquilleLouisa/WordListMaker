@@ -139,7 +139,7 @@ class PdfManager():
         else:
             newList[i].append("*")
     df = pd.DataFrame(newList)
-    df.to_excel("WordListMaker//output.xlsx", sheet_name="output")
+    df.to_excel("output.xlsx", sheet_name="output")
     app.updateFileStatus(2)
   
   def convertToPdf(app):

@@ -10,6 +10,7 @@ from PyQt6.QtWidgets import *
 from ExcelManager import *
 from PdfManager import *
 from KatakanaRemover import *
+from WordRemover import *
 
 
 class MainWindow(QMainWindow):
@@ -50,6 +51,14 @@ class MainWindow(QMainWindow):
         btn4 = QPushButton("Shuffle Excel list")
         btn4.clicked.connect(partial(ExcelManager.shuffleList, self))
         layout.addWidget(btn4)
+        
+        input = QTextEdit(self)
+        btn5 = QPushButton("Remove Words")
+        btn5.clicked.connect(partial(WordRemover.removeWords, self, input.toPlainText))
+        layout.addWidget(btn5)
+        
+        input.resize(200, 32)
+        layout.addWidget(input)
 
     def getExcel(self):
         fname = QFileDialog.getOpenFileName(
