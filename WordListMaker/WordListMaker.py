@@ -13,7 +13,6 @@ from PdfManager import *
 from KatakanaRemover import *
 from WordRemover import *
 
-
 class MainWindow(QMainWindow):
     japanize_matplotlib.japanize()
     kanji = []

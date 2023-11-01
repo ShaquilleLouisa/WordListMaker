@@ -15,7 +15,7 @@ class AnkiDeckGenerator:
         if len(newList[3]) > longestList:
             longestList = len(newList[3])
 
-        openai.api_key = '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'
+        openai.api_key = ''
         
         message1 = "Write a short simple japanese sentences with the following words Also add translation." + "\n"
         half = longestList * 0.5
