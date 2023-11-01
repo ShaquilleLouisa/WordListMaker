@@ -1,4 +1,6 @@
 # WordListMaker
+A Python application designed for recreating Japanese vocabulary lists.
+
 ## Functionalities:
 This is a Python application that offers the following functionalities:
 * Conversions between PDF and Excel files.
