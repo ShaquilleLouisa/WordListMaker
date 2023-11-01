@@ -7,6 +7,7 @@ from PyQt6.QtCore import *
 from PyQt6.QtGui import *
 from PyQt6.QtWidgets import *
 
+from AnkiDeckGenerator import *
 from ExcelManager import *
 from PdfManager import *
 from KatakanaRemover import *
@@ -52,10 +53,14 @@ class MainWindow(QMainWindow):
         btn4.clicked.connect(partial(ExcelManager.shuffleList, self))
         layout.addWidget(btn4)
         
-        input = QTextEdit(self)
-        btn5 = QPushButton("Remove Words")
-        btn5.clicked.connect(partial(WordRemover.removeWords, self, input.toPlainText))
+        btn5 = QPushButton("Generate Anki deck")
+        btn5.clicked.connect(partial(AnkiDeckGenerator.GenerateAnkiDeck, self))
         layout.addWidget(btn5)
+        
+        input = QTextEdit(self)
+        btn6 = QPushButton("Remove words")
+        btn6.clicked.connect(partial(WordRemover.removeWords, self, input.toPlainText))
+        layout.addWidget(btn6)
         
         input.resize(200, 32)
         layout.addWidget(input)

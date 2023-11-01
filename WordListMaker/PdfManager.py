@@ -1,3 +1,4 @@
+import io
 import japanize_matplotlib
 import re
 import math
@@ -9,6 +10,8 @@ from PyPDF2 import PdfReader
 from PyQt6.QtCore import *
 from PyQt6.QtGui import *
 from PyQt6.QtWidgets import *
+from matplotlib.widgets import RadioButtons
+
     
 class PdfManager():
   japanize_matplotlib.japanize()
@@ -148,25 +151,36 @@ class PdfManager():
       fig.patch.set_visible(False)
       ax.axis("off")
       ax.axis("tight")
-      data = {"Kanji":content[0],
+      data = {"":"O",
+          "Kanji":content[0],
           "Hiragana":content[1],
           "English":content[2]}
       df = pd.DataFrame(data)
       table = 0
       table = ax.table(cellText=df.values, colLabels=df.columns, loc="center", cellLoc="left")
       table.auto_set_font_size(False)
+      table.auto_set_column_width(False)
       table.set_fontsize(12)
       fig.set_size_inches(8.5, 11)
       table.scale(1.2,1.3)
       fig.subplots_adjust(left=0.1)
-      for y in range(3):
+      
+      for y in range(4):
           table.get_celld()[(0, y)].set_facecolor("lightgrey")
           table.get_celld()[(0, y)].set_fontsize(20)
           
       for y in range(size):
-          for x in range(3):
+          for x in range(4):
               table.get_celld()[(20 - y,x)].set_alpha(0)
               table.get_celld()[(20 - y,x)].get_text().set_color("white")
+              
+      for y in range(21):
+        table.get_celld()[(y, 0)].set_width(0.07)
+        table.get_celld()[(y, 0)].get_text().set_color("white")
+        table.get_celld()[(y, 0)].set_fontsize(35)
+        table.get_celld()[(y, 3)].set_width(0.43)
+        
+      
       pdf.savefig()
       plt.close()
     
@@ -204,10 +218,8 @@ class PdfManager():
       for page in range(len(pageCount)-2):
           if page == len(pageCount)-3:
               Copy(pdf,newList[page],20 - newList[len(pageCount)-1])
-              #Copy(pdf,newList[page],20 - newList[3])
           else:
             Copy(pdf,newList[page],0)
           app.updateProgressBar(int(page / (len(pageCount)-2) * 50) + 50)
     app.updateFileStatus(2)
-    
   
