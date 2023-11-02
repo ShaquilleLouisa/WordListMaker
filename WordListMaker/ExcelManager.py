@@ -38,5 +38,10 @@ class ExcelManager():
       
     random.shuffle(outputList)
     df = pandas.DataFrame(outputList)
-    df.to_excel("output.xlsx", sheet_name="output")
+    try:
+        df.to_excel("output.xlsx", sheet_name="output")
+    except PermissionError as e:
+        print(e)
+        app.updateFileStatus(2)
+        return
     app.updateFileStatus(2)

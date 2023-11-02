@@ -57,9 +57,13 @@ class MainWindow(QMainWindow):
         layout.addWidget(btn5)
         
         input = QTextEdit(self)
-        btn6 = QPushButton("Remove words")
-        btn6.clicked.connect(partial(WordRemover.removeWords, self, input.toPlainText))
+        btn6 = QPushButton("Remove Words")
+        btn6.clicked.connect(partial(WordRemover.removeWords, self, input.toPlainText, False))
         layout.addWidget(btn6)
+        
+        btn7 = QPushButton("Inverse Remove Words ")
+        btn7.clicked.connect(partial(WordRemover.removeWords, self, input.toPlainText, True))
+        layout.addWidget(btn7)
         
         input.resize(200, 32)
         layout.addWidget(input)

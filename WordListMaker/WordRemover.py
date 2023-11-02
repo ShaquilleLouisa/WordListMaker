@@ -1,7 +1,7 @@
 import pandas
 
 class WordRemover:
-    def removeWords(app, getWords):
+    def removeWords(app, getWords, isInverse):
         def wordIsInRemoveList(word):
             return word in wordList
 
@@ -21,26 +21,30 @@ class WordRemover:
         if len(newList[3]) > longestList:
             longestList = len(newList[3])
 
+        def removeWord(i):
+            return (wordIsInRemoveList(newList[2][i]) and not isInverse) or (
+                not wordIsInRemoveList(newList[2][i]) and isInverse)
+        
         outputList = [[]]
         index = 0
         for i in range(longestList):
             outputList.append([])
-            if not wordIsInRemoveList(newList[2][i]):
+            if removeWord(i):
                 if len(newList[1]) > i:
                     outputList[index].append(newList[1][i])
                 else:
                     outputList[index].append("*")
-            if not wordIsInRemoveList(newList[2][i]):
+            if removeWord(i):
                 if len(newList[2]) > i:
                     outputList[index].append(newList[2][i])
                 else:
                     outputList[index].append("*")
-            if not wordIsInRemoveList(newList[2][i]):
+            if removeWord(i):
                 if len(newList[3]) > i:
                     outputList[index].append(newList[3][i])
                 else:
                     outputList[index].append("*")
-            if wordIsInRemoveList(newList[2][i]):
+            if removeWord(i):
                 pass
             else:
                 index += 1
