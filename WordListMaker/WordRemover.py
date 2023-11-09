@@ -21,35 +21,40 @@ class WordRemover:
         if len(newList[3]) > longestList:
             longestList = len(newList[3])
 
-        def removeWord(i):
-            return (wordIsInRemoveList(newList[2][i]) and not isInverse) or (
-                not wordIsInRemoveList(newList[2][i]) and isInverse)
+        def includeWord(i):
+            return (wordIsInRemoveList(newList[2][i]) and isInverse) or (
+                not wordIsInRemoveList(newList[2][i]) and not isInverse)
         
         outputList = [[]]
         index = 0
         for i in range(longestList):
-            outputList.append([])
-            if removeWord(i):
+            if includeWord(i):
+                outputList.append([])
+            if includeWord(i):
                 if len(newList[1]) > i:
                     outputList[index].append(newList[1][i])
                 else:
                     outputList[index].append("*")
-            if removeWord(i):
+            if includeWord(i):
                 if len(newList[2]) > i:
                     outputList[index].append(newList[2][i])
                 else:
                     outputList[index].append("*")
-            if removeWord(i):
+            if includeWord(i):
                 if len(newList[3]) > i:
                     outputList[index].append(newList[3][i])
                 else:
                     outputList[index].append("*")
-            if removeWord(i):
-                pass
-            else:
+            if includeWord(i):
                 index += 1
             app.updateProgressBar(int(i / longestList * 100))
-
         df = pandas.DataFrame(outputList)
-        df.to_excel("output.xlsx", sheet_name="output")
+        try:
+            df.to_excel("output.xlsx", sheet_name="output")
+        except PermissionError as e:
+            print(e)
+            app.updateFileStatus(2)
+            return
         app.updateFileStatus(2)
+        print("Removed words count: " + (str(longestList - len(wordList)) if isInverse else str(len(wordList))))
+        
