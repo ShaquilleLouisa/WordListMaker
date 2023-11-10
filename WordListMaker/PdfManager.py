@@ -260,6 +260,10 @@ class PdfManager():
     # Merge the overlay with the existing PDF
     output = PdfWriter()
     overlay_pdf = PdfReader(overlay_pdf_path)
+    output.add_metadata({
+        '/Author': 'Shaquille Louisa',
+        '/Title': 'N3NoKatakanaShuffleRemoved-interactive'
+    })
     for i in range(len(existing_pdf.pages)):
         page = existing_pdf.pages[i]
         page.merge_page(overlay_pdf.pages[i])
