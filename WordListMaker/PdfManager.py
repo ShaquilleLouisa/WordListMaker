@@ -6,12 +6,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from matplotlib.backends.backend_pdf import PdfPages
-from PyPDF2 import PdfReader
+from PyPDF2 import PdfReader, PdfWriter
 from PyQt6.QtCore import *
 from PyQt6.QtGui import *
 from PyQt6.QtWidgets import *
-from matplotlib.widgets import RadioButtons
-
+from reportlab.pdfgen import canvas
+from reportlab.lib.colors import *
     
 class PdfManager():
   japanize_matplotlib.japanize()
@@ -213,6 +213,28 @@ class PdfManager():
     newList = DivideList()
     if len(newList) == 0:
       return
+    
+    # Function to create an interactive checkbox
+    def create_checkbox(c, x, y, size, field_name):
+        c.acroForm.checkbox(
+            name=field_name,
+            tooltip=field_name,
+            x=x,
+            y=y,
+            checked=False,
+            borderWidth=0,
+            fillColor=transparent,
+            textColor=transparent,
+            buttonStyle="circle",
+            size=size,
+        )
+        c.setFillColorRGB(1, 0, 0)
+    x = 37
+    y_interval = 35.75
+    y = y_interval * 19 + 17.25
+    size = 35
+    overlay_pdf_path = "overlay.pdf"
+    c = canvas.Canvas(overlay_pdf_path)
     pageCount = newList
     with PdfPages("output.pdf") as pdf:
       for page in range(len(pageCount)-2):
@@ -220,6 +242,34 @@ class PdfManager():
               Copy(pdf,newList[page],20 - newList[len(pageCount)-1])
           else:
             Copy(pdf,newList[page],0)
+          count = newList[len(pageCount)-1] if page == len(pageCount)-3 else 20
+          for i in range(count):
+            create_checkbox(
+                c, x, y + i * -y_interval, size, "checkbox" + str(i) + " - " + str(page)
+            )
+          c.showPage()
           app.updateProgressBar(int(page / (len(pageCount)-2) * 50) + 50)
+      c.save()
+          
+    # Existing PDF and output PDF paths
+    existing_pdf_path = "output.pdf"
+    output_pdf_path = "N3NoKatakanaShuffleRemoved-interactive.pdf"
+
+    existing_pdf = PdfReader(open(existing_pdf_path, "rb"))
+
+    # Merge the overlay with the existing PDF
+    output = PdfWriter()
+    overlay_pdf = PdfReader(overlay_pdf_path)
+    for i in range(len(existing_pdf.pages)):
+        page = existing_pdf.pages[i]
+        page.merge_page(overlay_pdf.pages[i])
+        output.add_page(page)
+
+    # Save the final interactive PDF
+    with open(output_pdf_path, "wb") as out_pdf:
+        output.write(out_pdf)
+
+    print("Interactive PDF saved to:", output_pdf_path)
+
     app.updateFileStatus(2)
   
