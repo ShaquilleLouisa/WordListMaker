@@ -7,10 +7,12 @@ from PyQt6.QtCore import *
 from PyQt6.QtGui import *
 from PyQt6.QtWidgets import *
 
+from AnkiReader import *
 from AnkiDeckGenerator import *
 from ExcelManager import *
-from PdfManager import *
 from KatakanaRemover import *
+from PdfManager import *
+from SaveDataManager import *
 from WordRemover import *
 
 class MainWindow(QMainWindow):
@@ -36,36 +38,58 @@ class MainWindow(QMainWindow):
         layout.addWidget(self.progressBar)
         self.updateFileStatus(0)
 
-        btn = QPushButton("Convert to Excel file")
-        btn.clicked.connect(partial(PdfManager.convertToExcelFile, self))
-        layout.addWidget(btn)
+        fileNameWidget = QWidget()
+        layout.addWidget(fileNameWidget)
+        fileNameLayout = QHBoxLayout()
+        fileNameWidget.setLayout(fileNameLayout)
+        fileNameLabel = QLabel("File name")
+        fileNameLayout.addWidget(fileNameLabel)
+        fileNameField = QTextEdit(self)
+        fileNameField.setMaximumSize(192, 26)
+        fileNameField.setText(SaveDataManager.read("FileName"))
+        fileNameField.textChanged.connect(partial(SaveDataManager.save, "FileName", fileNameField.toPlainText))
+        fileNameLayout.addWidget(fileNameField)
 
-        btn2 = QPushButton("Convert to Pdf file")
-        btn2.clicked.connect(partial(PdfManager.convertToPdf, self))
-        layout.addWidget(btn2)
-        
-        btn3 = QPushButton("Remove katakana words")
-        btn3.clicked.connect(partial(KatakanaRemover.removeKatakana, self))
-        layout.addWidget(btn3)
-        
-        btn4 = QPushButton("Shuffle Excel list")
-        btn4.clicked.connect(partial(ExcelManager.shuffleList, self))
-        layout.addWidget(btn4)
-        
-        btn5 = QPushButton("Generate Anki deck")
-        btn5.clicked.connect(partial(AnkiDeckGenerator.GenerateAnkiDeck, self))
-        layout.addWidget(btn5)
-        
+        buttons = []
+
+        buttons.append(QPushButton("Convert AnkiDeck to Excel file"))
+        buttons[0].clicked.connect(partial(AnkiReader.convertToExcelFile, self))
+        layout.addWidget(buttons[0])
+
+        buttons.append(QPushButton("Convert Pdf to Excel file"))
+        buttons[1].clicked.connect(partial(PdfManager.convertToExcelFile, self))
+        layout.addWidget(buttons[1])
+
+        buttons.append(QPushButton("Convert to Pdf file"))
+        buttons[2].clicked.connect(partial(PdfManager.convertToPdf, self))
+        layout.addWidget(buttons[2])
+
+        buttons.append(QPushButton("Remove katakana words"))
+        buttons[3].clicked.connect(partial(KatakanaRemover.removeKatakana, self))
+        layout.addWidget(buttons[3])
+
+        buttons.append(QPushButton("Shuffle Excel list"))
+        buttons[4].clicked.connect(partial(ExcelManager.shuffleList, self))
+        layout.addWidget(buttons[4])
+
+        buttons.append(QPushButton("Generate Anki deck"))
+        buttons[5].clicked.connect(partial(AnkiDeckGenerator.GenerateAnkiDeck, self))
+        layout.addWidget(buttons[5])
+
         input = QTextEdit(self)
-        btn6 = QPushButton("Remove Words")
-        btn6.clicked.connect(partial(WordRemover.removeWords, self, input.toPlainText, False))
-        layout.addWidget(btn6)
-        
-        btn7 = QPushButton("Inverse Remove Words ")
-        btn7.clicked.connect(partial(WordRemover.removeWords, self, input.toPlainText, True))
-        layout.addWidget(btn7)
-        
-        input.resize(200, 32)
+        buttons.append(QPushButton("Remove Words"))
+        buttons[6].clicked.connect(
+            partial(WordRemover.removeWords, self, input.toPlainText, False)
+        )
+        layout.addWidget(buttons[6])
+
+        buttons.append(QPushButton("Inverse Remove Words "))
+        buttons[7].clicked.connect(
+            partial(WordRemover.removeWords, self, input.toPlainText, True)
+        )
+        layout.addWidget(buttons[7])
+
+        # input.resize(200, 32)
         layout.addWidget(input)
 
     def getExcel(self):
@@ -94,6 +118,7 @@ class MainWindow(QMainWindow):
             self.progressBar.hide()
             self.progressBar.setValue(0)
         self.progressBar.repaint()
+
 
 app = QApplication(sys.argv)
 window = MainWindow()

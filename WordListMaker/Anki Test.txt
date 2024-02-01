@@ -1,4 +1,0 @@
-#separator:tab
-#html:true
-#tags column:3
-常識<br>常識を守ることは大切です。;じょうしき<br>common sense<br>It is important to follow common sense.	

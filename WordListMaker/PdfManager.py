@@ -12,6 +12,7 @@ from PyQt6.QtGui import *
 from PyQt6.QtWidgets import *
 from reportlab.pdfgen import canvas
 from reportlab.lib.colors import *
+from SaveDataManager import *
     
 class PdfManager():
   japanize_matplotlib.japanize()
@@ -146,16 +147,37 @@ class PdfManager():
     app.updateFileStatus(2)
   
   def convertToPdf(app):
-    def Copy(pdf, content, size):
+    # Function to create an interactive checkbox
+    x = 37
+    y_interval = 35.75
+    y = y_interval * 19 + 17.25
+    size = 35
+    def create_checkbox(c, x, y, size, field_name):
+        c.acroForm.checkbox(
+            name=field_name,
+            tooltip=field_name,
+            x=x,
+            y=y,
+            checked=False,
+            borderWidth=0,
+            fillColor=transparent,
+            textColor=transparent,
+            buttonStyle="circle",
+            size=size,
+        )
+        c.setFillColorRGB(1, 0, 0)
+    
+    def Copy(pdf, content, size, page):
       fig, ax = plt.subplots()
       fig.patch.set_visible(False)
       ax.axis("off")
       ax.axis("tight")
-      data = {"":"O",
+      data = {str(page + 1):"O",
           "Kanji":content[0],
           "Hiragana":content[1],
           "English":content[2]}
       df = pd.DataFrame(data)
+      #df.insert(loc = 0,column = 'PPA',value = '<input type="checkbox" />')
       table = 0
       table = ax.table(cellText=df.values, colLabels=df.columns, loc="center", cellLoc="left")
       table.auto_set_font_size(False)
@@ -166,21 +188,20 @@ class PdfManager():
       fig.subplots_adjust(left=0.1)
       
       for y in range(4):
-          table.get_celld()[(0, y)].set_facecolor("lightgrey")
-          table.get_celld()[(0, y)].set_fontsize(20)
+        table.get_celld()[(0, y)].set_facecolor("lightgrey")
+        table.get_celld()[(0, y)].set_fontsize(20)
           
       for y in range(size):
-          for x in range(4):
-              table.get_celld()[(20 - y,x)].set_alpha(0)
-              table.get_celld()[(20 - y,x)].get_text().set_color("white")
+        for x in range(4):
+            table.get_celld()[(20 - y,x)].set_alpha(0)
+            table.get_celld()[(20 - y,x)].get_text().set_color("white")
               
       for y in range(21):
         table.get_celld()[(y, 0)].set_width(0.07)
-        table.get_celld()[(y, 0)].get_text().set_color("white")
-        table.get_celld()[(y, 0)].set_fontsize(35)
+        #table.get_celld()[(y, 0)].get_text().set_color("white")
+        table.get_celld()[(y, 0)].set_fontsize(20)#35
         table.get_celld()[(y, 3)].set_width(0.43)
         
-      
       pdf.savefig()
       plt.close()
     
@@ -214,21 +235,6 @@ class PdfManager():
     if len(newList) == 0:
       return
     
-    # Function to create an interactive checkbox
-    def create_checkbox(c, x, y, size, field_name):
-        c.acroForm.checkbox(
-            name=field_name,
-            tooltip=field_name,
-            x=x,
-            y=y,
-            checked=False,
-            borderWidth=0,
-            fillColor=transparent,
-            textColor=transparent,
-            buttonStyle="circle",
-            size=size,
-        )
-        c.setFillColorRGB(1, 0, 0)
     x = 37
     y_interval = 35.75
     y = y_interval * 19 + 17.25
@@ -239,9 +245,9 @@ class PdfManager():
     with PdfPages("output.pdf") as pdf:
       for page in range(len(pageCount)-2):
           if page == len(pageCount)-3:
-              Copy(pdf,newList[page],20 - newList[len(pageCount)-1])
+              Copy(pdf,newList[page],20 - newList[len(pageCount)-1],page)
           else:
-            Copy(pdf,newList[page],0)
+            Copy(pdf,newList[page],0,page)
           count = newList[len(pageCount)-1] if page == len(pageCount)-3 else 20
           for i in range(count):
             create_checkbox(
@@ -250,10 +256,10 @@ class PdfManager():
           c.showPage()
           app.updateProgressBar(int(page / (len(pageCount)-2) * 50) + 50)
       c.save()
-          
-    # Existing PDF and output PDF paths
+      
+
     existing_pdf_path = "output.pdf"
-    output_pdf_path = "N3NoKatakanaShuffleRemoved-interactive.pdf"
+    output_pdf_path = SaveDataManager.read("FileName") + "-NoKatakanaShuffleRemoved-interactive.pdf"
 
     existing_pdf = PdfReader(open(existing_pdf_path, "rb"))
 
@@ -262,18 +268,19 @@ class PdfManager():
     overlay_pdf = PdfReader(overlay_pdf_path)
     output.add_metadata({
         '/Author': 'Shaquille Louisa',
-        '/Title': 'N3NoKatakanaShuffleRemoved-interactive'
+        '/Title': SaveDataManager.read("FileName") + '-NoKatakanaShuffleRemoved-interactive'
     })
     for i in range(len(existing_pdf.pages)):
         page = existing_pdf.pages[i]
         page.merge_page(overlay_pdf.pages[i])
+        
         output.add_page(page)
 
     # Save the final interactive PDF
     with open(output_pdf_path, "wb") as out_pdf:
         output.write(out_pdf)
 
-    print("Interactive PDF saved to:", output_pdf_path)
+    print("Interactive PDF saved to:", SaveDataManager.read("FileName") + "-NoKatakanaShuffleRemoved-interactive.pdf")
 
     app.updateFileStatus(2)
   
