@@ -17,9 +17,10 @@ from WordRemover import *
 
 class MainWindow(QMainWindow):
     japanize_matplotlib.japanize()
-    kanji = []
-    hiragana = []
-    english = []
+    #kanji = []
+    #hiragana = []
+    #english = []
+    shuffleAndNewPdf = True
 
     def __init__(self):
         super(MainWindow, self).__init__()
@@ -47,7 +48,9 @@ class MainWindow(QMainWindow):
         fileNameField = QTextEdit(self)
         fileNameField.setMaximumSize(192, 26)
         fileNameField.setText(SaveDataManager.read("FileName"))
-        fileNameField.textChanged.connect(partial(SaveDataManager.save, "FileName", fileNameField.toPlainText))
+        fileNameField.textChanged.connect(
+            partial(SaveDataManager.save, "FileName", fileNameField.toPlainText)
+        )
         fileNameLayout.addWidget(fileNameField)
 
         buttons = []
@@ -61,7 +64,7 @@ class MainWindow(QMainWindow):
         layout.addWidget(buttons[1])
 
         buttons.append(QPushButton("Convert to Pdf file"))
-        buttons[2].clicked.connect(partial(PdfManager.convertToPdf, self))
+        buttons[2].clicked.connect(partial(PdfManager.convertToPdf, self, []))
         layout.addWidget(buttons[2])
 
         buttons.append(QPushButton("Remove katakana words"))
@@ -69,7 +72,7 @@ class MainWindow(QMainWindow):
         layout.addWidget(buttons[3])
 
         buttons.append(QPushButton("Shuffle Excel list"))
-        buttons[4].clicked.connect(partial(ExcelManager.shuffleList, self))
+        buttons[4].clicked.connect(partial(ExcelManager.shuffleList, self, []))
         layout.addWidget(buttons[4])
 
         buttons.append(QPushButton("Generate Anki deck"))
@@ -89,7 +92,12 @@ class MainWindow(QMainWindow):
         )
         layout.addWidget(buttons[7])
 
-        # input.resize(200, 32)
+        shuffleRadio = QRadioButton("Shufffle list after removing words and make new PDF")
+        shuffleRadio.setChecked(True)
+        def toggleShuffleAndNewPdf():
+            MainWindow.shuffleAndNewPdf = not MainWindow.shuffleAndNewPdf
+        shuffleRadio.clicked.connect(toggleShuffleAndNewPdf)
+        layout.addWidget(shuffleRadio)
         layout.addWidget(input)
 
     def getExcel(self):
@@ -102,6 +110,20 @@ class MainWindow(QMainWindow):
         if fname[0] == "":
             return []
         return pd.read_excel(fname[0], sheet_name=0)
+
+    def getExcelOrPdfTxt(self):
+        fname = QFileDialog.getOpenFileName(
+            self,
+            "Open file",
+            "WordListMaker",
+            "Pdf text files (*.txt);;Excel files (*.xlsx)",
+        )
+        if fname[0] == "":
+            return []
+        if fname[1] == "Pdf text files (*.txt)":
+            return [open(fname[0],'rb'), "txt", fname[0]]
+        elif fname[1] == "Excel files (*.xlsx)":
+            return [pd.read_excel(fname[0], sheet_name=0), "xlsx", fname[0]]
 
     def updateProgressBar(self, value):
         if value < 100:

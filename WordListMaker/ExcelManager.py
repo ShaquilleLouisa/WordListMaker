@@ -1,9 +1,11 @@
 import pandas
 import random
+from SaveDataManager import *
 
 class ExcelManager():
-  def shuffleList(app):
-    list = app.getExcel()
+  def shuffleList(app, list):
+    if len(list) == 0:
+        list = app.getExcel()
     if len(list) == 0:
         return
     app.updateFileStatus(1)
@@ -39,7 +41,7 @@ class ExcelManager():
     random.shuffle(outputList)
     df = pandas.DataFrame(outputList)
     try:
-        df.to_excel("output.xlsx", sheet_name="output")
+        df.to_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name='output')
     except PermissionError as e:
         print(e)
         app.updateFileStatus(2)

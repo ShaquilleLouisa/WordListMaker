@@ -7,7 +7,7 @@ class AnkiReader():
     def isInBannedList(part):
         bannedList = ['#separator:tab','#html:true','#tags', 'column:5']
         for word in part.split():
-            if word.isnumeric() or word in bannedList or wordHasKatakana(word):
+            if word.isnumeric() or word in bannedList:
                 return True
         return False
 
@@ -36,11 +36,10 @@ class AnkiReader():
                     app.updateProgressBar(int(progress / lineCount * 100))
                     for part in line.split('\t'):
                         if not AnkiReader.isInBannedList(part):
-                            
-                            if partIsHiragana(part):
+                            if partIsKana(part):
                                 if newSet['Hiragana'] != None:
                                     continue
-                                newSet['Hiragana'] = getHiraganaFromLine(part)
+                                newSet['Hiragana'] = getKanaFromLine(part)
                             elif partIsEnglish(part):
                                 if newSet['English'] != None:
                                     continue

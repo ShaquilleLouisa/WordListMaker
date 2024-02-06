@@ -4,6 +4,8 @@ class AnkiDeckGenerator:
     def GenerateAnkiDeck(app):
         list = [[]]
         list = app.getExcel()
+        if list == []:
+            return
         app.updateFileStatus(1)
         newList = [[]]
         newList.append(list[0])

@@ -1,0 +1,1613 @@
+#separator:tab
+#html:true
+#tags column:5
+几帳面	几[き] 帳[ちょう] 面[めん]	precise, punctual		0002
+大ざっぱ	大[おお]ざっぱ	careless, rough		0002 0078
+きちっと	きちっと	exactly, perfectly	cf. きちんと	0002
+雑	雑[ざつ]	rough, messy		0002
+いい加減	いい 加[か] 減[げん]	irresponsible		0002 0078 0079
+ルーズ	ルーズ	careless		0002 0079
+勤勉	勤[きん] 勉[べん]	diligence, hard work		0002
+生真面目	生[き] 真[ま] 面目[じめ]	earnest, very serious		0002
+不真面目	不[ふ] 真[ま] 面目[じめ]	not serious		0002
+品	品[ひん]	grace, elegance, dignity		0002
+上品	上[じょう] 品[ひん]	refined, elegant, graceful		0002
+気品	気[き] 品[ひん]	dignity, grace, refinement		0002
+下品	下[げ] 品[ひん]	vulgar, rude		0002
+融通	融[ゆう] 通[ずう]	accommodation		0002
+利く	利[き]く	to be effective, to work well	e.g.  融[ゆう] 通[ずう]が 利[き]く<br>to be adaptable, to be flexible	0002
+頑固	頑[がん] 固[こ]	stubborn		0002
+冷淡	冷[れい] 淡[たん]	cold-hearted		0002 0079
+クール	クール	cold-hearted		0002
+ドライ	ドライ	unemotional		0002
+冷酷	冷[れい] 酷[こく]	heartless, cruel		0002
+愛想	愛[あい] 想[そ]	friendliness, affability, sociability	cf.  愛[あい] 想[そう]	0002
+無愛想	無[ぶ] 愛[あい] 想[そう]	unsociability		0002 0003 0078
+社交的	社[しゃ] 交[こう] 的[てき]	sociable		0002 0003
+非社交的	非[ひ] 社[しゃ] 交[こう] 的[てき]	unsociable, solitude-loving		0002
+楽観的	楽[らっ] 観[かん] 的[てき]	optimistic		0002 0003
+悲観的	悲[ひ] 観[かん] 的[てき]	pessimistic, gloomy		0002 0003
+人柄	人[ひと] 柄[がら]	character, personality		0002
+誠実	誠[せい] 実[じつ]	sincere, faithful		0002
+真摯	真[しん] 摯[し]	sincere		0002
+温和	温[おん] 和[わ]	gentle, mild		0002
+寛容	寛[かん] 容[よう]	tolerant		0002
+謙虚	謙[けん] 虚[きょ]	modest, humble		0002
+気さく	気[き]さく	approachable, friendly		0002
+にじみ出る	にじみ 出[で]る	to reveal itself		0002 0003
+個性	個[こ] 性[せい]	individuality, personality		0002
+ユニーク	ユニーク	unique		0002
+独特	独[どく] 特[とく]	peculiarity, uniqueness		0002
+強烈	強[きょう] 烈[れつ]	intense, strong, severe		0002
+際立つ	際[きわ] 立[だ]つ	to stand out		0002
+生かす	生[い]かす	to make the most of, to bring out the best of		0002
+磨く	磨[みが]く	to improve (one's skills), to brush up		0002
+重んじる	重[おも]んじる	to consider something important		0002 0003
+育む	育[はぐく]む	to cultivate, to foster		0002
+懐く	懐[なつ]く	to be attached (to somebody), to be affectionate (with somebody)		0002
+好意	好[こう] 意[い]	goodwill, good intentions		0002
+共感	共[きょう] 感[かん]	sympathy		0002 0091
+同情	同[どう] 情[じょう]	sympathy		0002
+反発	反[はん] 発[ぱつ]	opposition, resistance, rebellion		0002
+反感	反[はん] 感[かん]	antipathy, ill feeling		0002
+猛反対	猛[もう] 反[はん] 対[たい]	violent [fierce] opposition		0002 0003
+しっと	しっと	jealousy		0002
+気兼ね	気[き] 兼[が]ね	to feel constraint, to be afraid of giving trouble, to worry about (how others react)		0002 0084
+慕う	慕[した]う	to yearn for, to love (somebody) dearly		0002
+崇拝	崇[すう] 拝[はい]	worship, adore, admire		0002
+いたわる	いたわる	to take good care of		0002
+励ます	励[はげ]ます	to encourage		0002
+傷つける	傷[きず]つける	to hurt (somebody emotionally)		0002
+中傷	中[ちゅう] 傷[しょう]	slander, defamation		0002
+侮辱	侮[ぶ] 辱[じょく]	insult		0002
+かばう	かばう	to protect		0002
+ねたむ	ねたむ	to be jealous		0002 0096
+軽べつ	軽[けい]べつ	contempt, scorn, looking down		0002
+あざ笑う	あざ 笑[わら]う	to laugh at, to ridicule, to make fun of		0002
+無遠慮	無[ぶ] 遠[えん] 慮[りょ]	unreserved, impolite, rude		0003
+好意的	好[こう] 意[い] 的[てき]	friendly, warm, sympathetic		0003
+個性的	個[こ] 性[せい] 的[てき]	individual		0003
+申し出る	申[もう]し 出[で]る	to offer, to request		0003 0155
+届け出る	届[とど]け 出[で]る	to submit [file] notice		0003
+～じる	～じる	treating [consider, regarding] something as ～		0003
+軽んじる	軽[かろ]んじる	to belittle, to look down		0003
+猛～	猛[もう]～	extreme ～, excessive ～, intense ～		0003 0161
+心底	心[しん] 底[そこ]	the bottom of one's heart		0003 0115
+さも	さも	(just) like, acted as if		0003 0108
+まさしく	まさしく	surely, certainly, no doubt		0003
+根っから	根[ね]っから	from the start, naturally		0003 0115
+取りあえず	取[と]りあえず	for the time being		0003
+親族	親[しん] 族[ぞく]	relative		0006
+肉親	肉[にく] 親[しん]	blood relationship, one's (immediate) family		0006
+おやじ	おやじ	(somebody's) father		0006
+お袋	お 袋[ふくろ]	(somebody's) mother		0006
+義理	義[ぎ] 理[り]	obligation, duty		0006
+義父	義[ぎ] 父[ふ]	father-in-law		0006
+義母	義[ぎ] 母[ぼ]	mother-in-law		0006
+配偶者	配[はい] 偶[ぐう] 者[しゃ]	one's spouse		0006
+（お）婿（さん）	（お） 婿[むこ]（さん）	(one's) son-in-law		0006
+（お）嫁（さん）	（お） 嫁[よめ]（さん）	(one's) daughter-in-law		0006
+妻子	妻[さい] 子[し]	wife and child(ren)		0006
+養う	養[やしな]う	to support, to provide [care] for		0006
+築く	築[きず]く	to build, to found, to establish		0006
+円満	円[えん] 満[まん]	harmonious, peaceful, trouble-free		0006
+和やか	和[なご]やか	harmonious, peaceful		0006 0096
+先代	先[せん] 代[だい]	previous [last] generation		0006
+旧知	旧[きゅう] 知[ち]	old friend [acquaintance]		0006
+旧友	旧[きゅう] 友[ゆう]	old friend		0006
+幼なじみ	幼[おさな]なじみ	childhood friend		0006
+ライバル同士	ライバル 同[どう] 士[し]	mutual rivals		0006 0007
+同志	同[どう] 志[し]	like-minded people, kindred spirits		0006
+師弟	師[し] 弟[てい]	teacher and student		0006
+師匠	師[し] 匠[しょう]	master, teacher, instructor		0006
+弟子	弟[で] 子[し]	disciple, pupil		0006
+恩師	恩[おん] 師[し]	respected former teacher		0006
+教え子	教[おし]え 子[ご]	one's (former) pupil [student]		0006
+側近	側[そっ] 近[きん]	close aide [associate]		0006
+家族ぐるみ	家[か] 族[ぞく]ぐるみ	whole family		0006 0007
+十年来	十[じゅう] 年[ねん] 来[らい]	for ten years		0006
+来賓	来[らい] 賓[ひん]	guest, visitor (at ceremony [meeting])		0006
+接待	接[せっ] 待[たい]	entertainment		0006
+もてなす	もてなす	to treat, to entertain		0006
+慣習	慣[かん] 習[しゅう]	custom, common practice		0006
+しきたり	しきたり	tradition, convention		0006
+風習	風[ふう] 習[しゅう]	manners and customs, ways, practices		0006
+片思い	片[かた] 思[おも]い	unrequited love		0006
+告白	告[こく] 白[はく]	confession		0006 0084
+打ち明ける	打[う]ち 明[あ]ける	to confide, to open one's heart to somebody		0006 0007 0084 0144
+未練	未[み] 練[れん]	to feel (some) regret		0006
+執着	執[しゅう] 着[ちゃく]	attachment, obsession		0006
+異性	異[い] 性[せい]	other (opposite) sex		0006
+浮気	浮[う] 気[わき]	unfaithfulness		0006
+弾む	弾[はず]む	to bounce; to pant, to be out of breath; to cheer, to be in high spirits; to become lively (for conversation); to be in an excited voice; to give a big [generous] tip		0006 0072
+引きずる	引[ひ]きずる	to drag (from floor or surface); to be haunted (by past experiences), to prolong	e.g.  過[か] 去[こ]を 引[ひ]きずる<br>to dwell (worrying about) the past	0006 0146
+切り替える	切[き]り 替[か]える	to switch, to change		0006 0007 0154
+～同志	～ 同[どう] 志[し]	mutual ～		0007
+～ぐるみ	～ぐるみ	whole ～		0007 0161
+打ち～	打[う]ち～	(used to add emphasis)		0007 0144
+打ち解ける	打[う]ち 解[と]ける	to open up (to somebody)		0007 0144
+切り～	切[き]り～	to end ～, to cut ～		0007
+切り出す	切[き]り 出[だ]す	to begin talking, to break the ice		0007 0153
+切り上げる	切[き]り 上[あ]げる	to put an end (to close [stop])		0007
+急きょ	急[きゅう]きょ	(unexpectedly, suddenly) in a hurry		0007 0103
+余程	余[よ] 程[ほど]	very, to a great extent		0007
+どぎまぎ	どぎまぎ	to be flustered [confused]		0007 0127
+先ごろ	先[さき]ごろ	a while ago, not long ago		0007 0103
+研ぐ	研[と]ぐ	to sharpen		0010
+浸す	浸[ひた]す	to soak, to dip, to immerse		0010
+水気	水[みず] 気[け]	water content		0010
+ふき取る	ふき 取[と]る	to wipe off [out, up]		0010 0011
+練る	練[ね]る	to knead; to put together		0010 0018
+染み込む	染[し]み 込[こ]む	to permeate, to soak into		0010 0011
+添える	添[そ]える	to add, to garnish		0010
+フィルター	フィルター	filter		0010
+こす	こす	to sieve, to filter		0010
+手際	手[て] 際[ぎわ]	skill [efficiency]		0010 0097
+こつ	こつ	trick, secret (of success)		0010
+腕前	腕[うで] 前[まえ]	ability, skill		0010
+素材	素[そ] 材[ざい]	material, ingredient		0010
+吟味	吟[ぎん] 味[み]	close examination [investigation]		0010
+恵み	恵[めぐ]み	blessing		0010
+名産	名[めい] 産[さん]	noted [special] product, speciality		0010
+特産	特[とく] 産[さん]	local speciality		0010
+着色料	着[ちゃく] 色[しょく] 料[りょう]	colouring agent, artificial colouring		0010 0011
+なめる	なめる	to lick		0010
+かみ切る	かみ 切[き]る	to bite off		0010
+飲み込む	飲[の]み 込[こ]む	to swallow		0010 0011
+すする	すする	to slurp		0010
+旬	旬[しゅん]	season		0010
+味覚	味[み] 覚[かく]	the sense of taste		0010
+本場	本[ほん] 場[ば]	the home, the best place		0010
+あっさり	あっさり	light, plain		0010 0078
+こってり	こってり	heavily, thickly, rich		0010
+甘口	甘[あま] 口[くち]	sweet flavour		0010
+辛口	辛[から] 口[くち]	dry taste		0010
+甘酸っぱい	甘[あま] 酸[ず]っぱい	sweet and sour taste		0010
+生臭い	生[なま] 臭[ぐさ]い	fishy		0010
+こうばしい	こうばしい	fragrant, savoury, aromatic, sweet-smelling		0010
+焦げ臭い	焦[こ]げ 臭[くさ]い	burnt smell		0010
+屋敷	屋[や] 敷[しき]	premises, residence		0010
+外観	外[がい] 観[かん]	external appearance, exterior view		0010
+照明	照[しょう] 明[めい]	illumination		0010
+凝る	凝[こ]る	to be interested in (an activity); to pay great attention of (the details); to get stiff (from doing)		0010 0014 0071
+きしむ	きしむ	to be creaked [squeaked]		0010
+新築	新[しん] 築[ちく]	new construction		0010
+再建	再[さい] 建[けん]	reconstruction, rebuilding		0010
+補強	補[ほ] 強[きょう]	reinforcement, strengthening		0010
+改修	改[かい] 修[しゅう]	repair, improvement		0010 0085
+首都圏	首[しゅ] 都[と] 圏[けん]	metropolitan area		0010 0011
+沿線	沿[えん] 線[せん]	along the train line		0010
+徒歩	徒[と] 歩[ほ]	walking, going on foot		0010
+構える	構[かま]える	to set up (an office, a house)		0010
+治安	治[ち] 安[あん]	public order, public safety		0010
+戸締まり	戸[と] 締[じ]まり	fastening [locking up] the doors		0010
+居住者	居[きょ] 住[じゅう] 者[しゃ]	resident		0010
+結成	結[けっ] 成[せい]	formation, organisation		0010
+待ち望む	待[ま]ち 望[のぞ]む	to anticipate, to look forward to		0010
+しつける	しつける	to train, to drill, to discipline		0010
+おむつ	おむつ	napkin [diaper]		0010
+健やか	健[すこ]やか	healthy	e.g.  健[すこ]やかに 育[そだ]つ<br>to grow up in good [perfect] health	0010
+育ち盛り	育[そだ]ち 盛[ざか]り	growing stage, period of growth		0010 0011
+育児	育[いく] 児[じ]	childcare		0010
+悩ます	悩[なや]ます	to annoy, to trouble	e.g.  頭[あたま]を 悩[なや]ます<br>to rack one's brain (finding a solution)	0010
+放棄	放[ほう] 棄[き]	abandon		0010
+分担	分[ぶん] 担[たん]	allotment, partial charge		0010
+吸い取る	吸[す]い 取[と]る	to absorb (water); to siphon off (somebody's wealth)		0011
+香辛料	香[こう] 辛[しん] 料[りょう]	spices		0011
+煮込む	煮[に] 込[こ]む	to simmer, to stew		0011
+放り込む	放[ほう]り 込[こ]む	to throw something into		0011 0153
+～圏	～ 圏[けん]	～ area, ～ circle, ～ sphere		0011 0055 0160
+～盛り	～ 盛[ざか]り	～ peak, ～ height		0011 0161
+食べ盛り	食[た]べ 盛[ざか]り	healthy appetite, when one's appetite (desire for food) is at its peak		0011
+働き盛り	働[はたら]き 盛[ざか]り	prime of one's working life		0011
+てきぱき	てきぱき	efficiently		0011 0043
+じっくり	じっくり	thoroughly, carefully, deliberately		0011
+ずるずる	ずるずる	slurp (up) sound		0011
+一切	一[いっ] 切[さい]	(affirmative verb) all, the whole, everything; (negative verb) nothing, not at all		0011 0078 0085
+いっそ	いっそ	rather		0011 0109
+感染	感[かん] 染[せん]	infection		0014
+立ち向かう	立[た]ち 向[む]かう	to fight (against)		0014 0015
+兆候	兆[ちょう] 候[こう]	symptom, indicator		0014
+全快	全[ぜん] 快[かい]	complete recovery (from illness)		0014
+過労	過[か] 労[ろう]	overwork		0014
+発病	発[はつ] 病[びょう]	outbreak of one's illness		0014
+持病	持[じ] 病[びょう]	chronic illness		0014
+不調	不[ふ] 調[ちょう]	bad condition, disorder		0014
+栄養失調	栄[えい] 養[よう] 失[しっ] 調[ちょう]	malnutrition		0014
+先天的	先[せん] 天[てん] 的[てき]	congenital, natural (ability)	cf. a disease or physical abnormality that affected someone since they were born	0014
+慢性	慢[まん] 性[せい]	chronic		0014
+急性	急[きゅう] 性[せい]	acute	e.g.  急[きゅう] 性[せい]の 病[びょう] 気[き]<br>acute disease	0014
+関節	関[かん] 節[せつ]	joint		0014
+はれる	はれる	to become swollen		0014
+高熱	高[こう] 熱[ねつ]	high fever		0014
+微熱	微[び] 熱[ねつ]	slight fever		0014
+便秘気味	便[べん] 秘[ぴ] 気[ぎ] 味[み]	feeling of constipation		0014
+自覚症状	自[じ] 覚[かく] 症[しょう] 状[じょう]	subjective symptoms	cf. symptoms of illness perceived by patients themselves	0014
+寒気	寒[さむ] 気[け]	chill	e.g.  寒[さむ] 気[け]がする<br>to have a chill	0014
+腹痛	腹[ふく] 痛[つう]	stomachache		0014
+けいれん	けいれん	cramp		0014
+発作	発[ほっ] 作[さ]	(medical symptom) attack	e.g.  心[しん] 臓[ぞう]の 発[ほっ] 作[さ]が 起[お]こる<br>to have a heart attack	0014 0091
+治療	治[ち] 療[りょう]	treatment		0014
+通院	通[つう] 院[いん]	regular hospital visit (as outpatient treatment)		0014
+往診	往[おう] 診[しん]	house visit (by a doctor)		0014
+聴診器	聴[ちょう] 診[しん] 器[き]	stethoscope		0014
+点滴	点[てん] 滴[てき]	intravenous drip (abbr.)	cf.  点[てん] 滴[てき] 注[ちゅう] 射[しゃ]	0014
+応急処置	応[おう] 急[きゅう] 処[しょ] 置[ち]	first aid (treatment)		0014
+処置	処[しょ] 置[ち]	measure, step		0014
+介抱	介[かい] 抱[ほう]	nursing, looking after		0014
+さする	さする	to rub		0014
+和らげる	和[やわ]らげる	to lessen, to relieve, to ease		0014
+面会謝絶	面[めん] 会[かい] 謝[しゃ] 絶[ぜつ]	No Visitors		0014
+安静	安[あん] 静[せい]	rest, quiet		0014
+胃腸薬	胃[い] 腸[ちょう] 薬[やく]	digestive medicine		0014
+処方	処[しょ] 方[ほう]	prescription		0014
+患部	患[かん] 部[ぶ]	affected part		0014
+効き目	効[き]き 目[め]	effect	e.g.  効[き]き 目[め]が 切[き]れる<br>to become expired	0014 0015
+副作用	副[ふく] 作[さ] 用[よう]	side effect		0014 0015
+心掛ける	心[こころ] 掛[が]ける	to keep in mind		0014
+早寝早起き	早[はや] 寝[ね] 早[はや] 起[お]き	early to bed and early to rise		0014
+補給	補[ほ] 給[きゅう]	replenishment		0014 0091
+食生活	食[しょく] 生[せい] 活[かつ]	eating habits		0014
+維持	維[い] 持[じ]	maintenance, preservation		0014 0091
+害する	害[がい]する	to harm		0014
+損なう	損[そこ]なう	to ruin, to lose		0014
+増進	増[ぞう] 進[しん]	improvement (of health)		0014
+取り戻す	取[と]り 戻[もど]す	to recover		0014 0015 0146
+不摂生	不[ふ] 摂[せっ] 生[せい]	carelessness [negligence] of one's health		0014 0015
+禁物	禁[きん] 物[もつ]	prohibited, forbidden		0014
+頑丈	頑[がん] 丈[じょう]	strong		0014
+体つき	体[からだ]つき	one's build, one's figure		0014 0015
+衰える	衰[おとろ]える	to become weak		0014
+細胞	細[さい] 胞[ぼう]	cell		0014
+老化	老[ろう] 化[か]	ageing		0014
+立ち寄る	立[た]ち 寄[よ]る	to stop by, to pay a visit		0015
+～目	～ 目[め]	～ knot, ～ cut (in various objects or materials)		0015 0161
+結び目	結[むす]び 目[め]	knot(ted) together		0015
+切れ目	切[き]れ 目[め]	(already) cut		0015
+取り返す	取[と]り 返[かえ]す	to get back, to regain; to recover		0015 0145
+～つき	～つき	(describing the state or appearance of the body)		0015
+顔つき	顔[かお]つき	(outward) looks		0015
+ひりひり	ひりひり	sting, irritate		0015
+ずきずき	ずきずき	ache, smart, throb (with pain)		0015
+きりきり	きりきり	terrible, splitting, griping (pain)		0015
+くらくら	くらくら	dizzy, spinning		0015
+がんがん	がんがん	throbbing, pounding, splitting (headache)		0015
+むかむか	むかむか	(feeling) nauseated, sick		0015
+げっそり	げっそり	very thin and weak, emaciated		0015
+著書	著[ちょ] 書[しょ]	(literary) work, book, one's writings		0018
+独創的	独[どく] 創[そう] 的[てき]	original, creative		0018
+原文	原[げん] 文[ぶん]	original (text)		0018
+ニュアンス	ニュアンス	nuance		0018
+朗読	朗[ろう] 読[どく]	reading aloud, recitation		0018
+書評	書[しょ] 評[ひょう]	book review		0018
+刊行	刊[かん] 行[こう]	publication, issue		0018
+長編小説	長[ちょう] 編[へん] 小[しょう] 説[せつ]	full-length novel		0018
+戯曲	戯[ぎ] 曲[きょく]	a drama, a play		0018
+文庫本	文[ぶん] 庫[こ] 本[ぼん]	paperback book		0018
+新書	新[しん] 書[しょ]	newly published book		0018
+初版	初[しょ] 版[はん]	first edition, first impression		0018 0019
+改訂版	改[かい] 訂[てい] 版[ばん]	revised edition		0018 0019
+～著	～ 著[ちょ]	～ work, ～ book		0018
+待望	待[たい] 望[ぼう]	long-awaited, long-expected		0018
+新刊	新[しん] 刊[かん]	new publication		0018
+重厚	重[じゅう] 厚[こう]	profound, deep, grave	cf.  重[じゅう] 厚[こう]な 曲[きょく]<br>a piece of music that is substantial, serious, and has a sense of gravitas or depth	0018
+軽快	軽[けい] 快[かい]	lilting, buoyant		0018
+一筋	一[ひと] 筋[すじ]	earnestly, intently, single-mindedly		0018
+打ち込む	打[う]ち 込[こ]む	to be committed, to put one's heart and soul		0018 0019 0026 0144
+音色	音[ね] 色[いろ]	(quality of) tone		0018
+反響	反[はん] 響[きょう]	echo, resound		0018
+楽譜	楽[がく] 譜[ふ]	(musical) score, music		0018
+めくる	めくる	to turn over, to leaf [flip] through		0018
+一節	一[いっ] 節[せつ]	stanza, verse		0018
+口ずさむ	口[くち]ずさむ	to hum (a tune)		0018
+盛大	盛[せい] 大[だい]	grand	e.g.  盛[せい] 大[だい]な 拍[はく] 手[しゅ]<br>a round of applause	0018 0090
+沸き起こる	沸[わ]き 起[お]こる	to break out, to arise		0018 0019
+作風	作[さく] 風[ふう]	(literary) style		0018
+繊細	繊[せん] 細[さい]	delicate, fine		0018
+大胆	大[だい] 胆[たん]	bold, daring		0018
+描写	描[びょう] 写[しゃ]	description, depiction		0018
+壮大	壮[そう] 大[だい]	magnificent, grand		0018 0090
+画廊	画[が] 廊[ろう]	art gallery		0018
+個展	個[こ] 展[てん]	personal exhibition		0018
+手芸	手[しゅ] 芸[げい]	handicraft		0018
+織物	織[おり] 物[もの]	textile		0018
+刺しゅう	刺[し]しゅう	embroidery		0018
+陶芸	陶[とう] 芸[げい]	pottery		0018
+精巧	精[せい] 巧[こう]	elaborate, exquisite		0018
+意図	意[い] 図[と]	intention		0018
+読み取る	読[よ]み 取[と]る	to read (somebody's mind)		0018 0019
+茶道	茶[さ] 道[どう]	tea ceremony		0018
+たしなむ	たしなむ	to enjoy, to be interested in, to make a hobby of		0018
+生ける	生[い]ける	to arrange (flowers)		0018
+オペラ	オペラ	opera		0018
+歌舞伎	歌[か] 舞[ぶ] 伎[き]	kabuki, traditional Japanese theatrical art		0018
+観戦	観[かん] 戦[せん]	to watch (a game)		0018
+声援	声[せい] 援[えん]	shout of encouragement		0018
+励む	励[はげ]む	to work hard, to apply oneself to (a task)		0018
+規約	規[き] 約[やく]	agreement		0018 0090
+規定	規[き] 定[てい]	regulations, rules		0018 0090
+戦術	戦[せん] 術[じゅつ]	tactics, strategy		0018
+巧み	巧[たく]み	skilful, ingenious, clever		0018
+巧妙	巧[こう] 妙[みょう]	skilful, ingenious, clever		0018
+制する	制[せい]する	to win [gain] (a victory)		0018
+結束	結[けっ] 束[そく]	unite, band [stick] together		0018
+連帯	連[れん] 帯[たい]	solidarity		0018
+不振	不[ふ] 振[しん]	poor, slump		0018
+有望	有[ゆう] 望[ぼう]	promising		0018 0079
+育成	育[いく] 成[せい]	training		0018
+養成	養[よう] 成[せい]	training		0018
+圧勝	圧[あっ] 勝[しょう]	overwhelming		0018
+完敗	完[かん] 敗[ぱい]	total defeat		0018
+反撃	反[はん] 撃[げき]	counterattack		0018
+強豪	強[きょう] 豪[ごう]	overwhelming strength		0018
+健闘	健[けん] 闘[とう]	strenuous [vigorous] efforts		0018
+奮闘	奮[ふん] 闘[とう]	struggle, efforts		0018
+負かす	負[ま]かす	to beat		0018
+圧倒	圧[あっ] 倒[とう]	overwhelm		0018
+～版	～ 版[ばん]	～ version, ～ edition		0019
+落ち込む	落[お]ち 込[こ]む	to be depressed		0019
+意気込む	意[い] 気[き] 込[ご]む	to be enthusiastic (about), to be eager [determined] to do		0019
+沸き～	沸[わ]き～	boiling ～		0019
+沸き上がる	沸[わ]き 上[あ]がる	to boil up		0019
+くみ取る	くみ 取[と]る	to draw (water)		0019
+がらんと	がらんと	look empty [bare, deserted]		0019 0120
+ぱらぱら	ぱらぱら	thumbing [leafing] through (a book)		0019
+一心に	一[いっ] 心[しん]に	wholeheartedly		0019 0114
+いかにも	いかにも	so, really, certainly, indeed, very		0019 0108
+中等教育	中[ちゅう] 等[とう] 教[きょう] 育[いく]	secondary education		0022
+中高一貫	中[ちゅう] 高[こう] 一[いっ] 貫[かん]	junior and senior high school		0022
+男女共学	男[だん] 女[じょ] 共[きょう] 学[がく]	co-education		0022
+高等教育	高[こう] 等[とう] 教[きょう] 育[いく]	higher education		0022
+四年制大学	四[よ] 年[ねん] 制[せい] 大[だい] 学[がく]	four-year university system		0022
+塾	塾[じゅく]	cram school		0022
+予備校	予[よ] 備[び] 校[こう]	cram school		0022 0023
+校風	校[こう] 風[ふう]	school tradition		0022
+保守的	保[ほ] 守[しゅ] 的[てき]	conservative		0022
+革新的	革[かく] 新[しん] 的[てき]	innovative		0022
+厳格	厳[げん] 格[かく]	strict, stern		0022
+リベラル	リベラル	liberal		0022
+講義	講[こう] 義[ぎ]	lecture		0022
+受講	受[じゅ] 講[こう]	attendance at a lecture		0022
+聴講	聴[ちょう] 講[こう]	auditing (a course)		0022
+必修科目	必[ひっ] 修[しゅう] 科[か] 目[もく]	required subject		0022
+講読	講[こう] 読[どく]	reading (and discussion)		0022
+質疑応答	質[しつ] 疑[ぎ] 応[おう] 答[とう]	questions and answers		0022
+学士	学[がく] 士[し]	bachelor's degree holder		0022
+修士	修[しゅう] 士[し]	master (degree)		0022
+口述試験	口[こう] 述[じゅつ] 試[し] 験[けん]	oral examination		0022
+実技試験	実[じつ] 技[ぎ] 試[し] 験[けん]	physical skills test		0022
+志す	志[こころざ]す	to aspire (to do or become)		0022
+模範的	模[も] 範[はん] 的[てき]	model, exemplary		0022
+奨学金	奨[しょう] 学[がく] 金[きん]	scholarship		0022 0023
+授与	授[じゅ] 与[よ]	award		0022
+免除	免[めん] 除[じょ]	exemption		0022
+振り込む	振[ふ]り 込[こ]む	to transfer (to someone's bank account)		0022
+学費	学[がく] 費[ひ]	tuition fees		0022
+休学	休[きゅう] 学[がく]	registered absence from school (with official approval)		0022
+非行	非[ひ] 行[こう]	delinquent [misconduct] behaviour		0022
+先行研究	先[せん] 行[こう] 研[けん] 究[きゅう]	previous work, prior research		0022
+参照	参[さん] 照[しょう]	reference		0022
+定義	定[てい] 義[ぎ]	definition		0022
+台無し	台[だい] 無[な]し	spoil, ruin		0022
+実践的	実[じっ] 践[せん] 的[てき]	practical		0022
+類推	類[るい] 推[すい]	analogy		0022
+権威	権[けん] 威[い]	authority		0022
+学説	学[がく] 説[せつ]	theory		0022
+課題	課[か] 題[だい]	subject, topic, theme		0022
+プレゼンテーション	プレゼンテーション	presentation		0022
+手順	手[て] 順[じゅん]	process, procedure		0022
+箇条書き	箇[か] 条[じょう] 書[が]き	itemised (statement, list, etc.)		0022 0023
+まごつく	まごつく	to be confused		0022
+簡潔	簡[かん] 潔[けつ]	concise, succinct		0022 0090
+有益	有[ゆう] 益[えき]	useful, beneficial		0022
+指摘	指[し] 摘[てき]	pointing out		0022
+同級生	同[どう] 級[きゅう] 生[せい]	classmate		0022
+課外活動	課[か] 外[がい] 活[かつ] 動[どう]	extracurricular activities		0022 0023
+修学旅行	修[しゅう] 学[がく] 旅[りょ] 行[こう]	excursion, school trip		0022
+級友	級[きゅう] 友[ゆう]	classmate		0022
+雑談	雑[ざつ] 談[だん]	chat		0022
+同窓会	同[どう] 窓[そう] 会[かい]	class reunion		0022
+中高一貫校	中[ちゅう] 高[こう] 一[いっ] 貫[かん] 校[こう]	integrated junior and senior high school		0023
+～制	～ 制[せい]	～ system		0023
+四年制	四[よ] 年[ねん] 制[せい]	four-year system		0023
+～金	～ 金[きん]	～ fee		0023
+前書き	前[まえ] 書[が]き	preface		0023
+ボランティア活動	ボランティア 活[かつ] 動[どう]	voluntary activities		0023
+いざ	いざ	now (then)		0023
+てっきり	てっきり	definitely		0023 0108
+つくづく	つくづく	thoroughly, deeply		0023
+延々と	延[えん] 々[えん]と	meanderingly, windingly		0023
+手掛ける	手[て] 掛[が]ける	to handle, to manage, to deal with		0026 0050
+委託	委[い] 託[たく]	trust, consignment		0026
+おろそか	おろそか	negligently, carelessly		0026 0078 0096
+はかどる	はかどる	to make (good) progress		0026
+順調	順[じゅん] 調[ちょう]	favourably, satisfactorily, well		0026
+取り掛かる	取[と]り 掛[か]かる	to begin [commence] (work)		0026 0027 0145
+役職	役[やく] 職[しょく]	a post, an official position		0026
+ポスト	ポスト	post, a position		0026
+昇進	昇[しょう] 進[しん]	promotion		0026
+主任	主[しゅ] 任[にん]	person in charge, head of a team, chief		0026
+係長	係[かかり] 長[ちょう]	subsection chief		0026
+次長	次[じ] 長[ちょう]	deputy chief, assistant director (general)		0026
+役員	役[やく] 員[いん]	officer, executive		0026
+取締役	取[とり] 締[しまり] 役[やく]	(executive) director (of a company)		0026
+常勤	常[じょう] 勤[きん]	full-time employment		0026
+非常勤	非[ひ] 常[じょう] 勤[きん]	part-time employment		0026 0027
+正規	正[せい] 規[き]	full-time employment		0026
+非正規	非[ひ] 正[せい] 規[き]	non-fulltime employment		0026 0027
+部署	部[ぶ] 署[しょ]	post, place of duty		0026
+セクション	セクション	section		0026
+企画	企[き] 画[かく]	planning, plan, project		0026
+開発	開[かい] 発[はつ]	development		0026
+広報	広[こう] 報[ほう]	(public) information, public relations		0026
+経理	経[けい] 理[り]	accounting		0026
+赴任	赴[ふ] 任[にん]	start [leave] for one's new job [position]		0026 0084
+赴く	赴[おもむ]く	to proceed, to go		0026
+転任	転[てん] 任[にん]	change of post		0026
+報酬	報[ほう] 酬[しゅう]	reward		0026
+多忙	多[た] 忙[ぼう]	busy		0026
+極める	極[きわ]める	to master		0026
+営む	営[いとな]む	to run (a business)		0026
+勤続	勤[きん] 続[ぞく]	continuous service, continuance in office [employment, service]		0026
+退職	退[たい] 職[しょく]	retirement		0026
+不景気	不[ふ] 景[けい] 気[き]	business recession		0026
+不況	不[ふ] 況[きょう]	economic recession		0026
+検事	検[けん] 事[じ]	public prosecutor		0026
+裁判官	裁[さい] 判[ばん] 官[かん]	judge		0026 0027
+歯科医	歯[し] 科[か] 医[い]	dentist		0026 0027
+助産師	助[じょ] 産[さん] 師[し]	midwife, birth attendant		0026
+介護福祉士	介[かい] 護[ご] 福[ふく] 祉[し] 士[し]	caregiver, (certified) nursing care worker		0026 0027 0042 0043
+介護士	介[かい] 護[ご] 士[し]	carer, nurse		0026 0042
+土木	土[ど] 木[ぼく]	civil engineering [public] works		0026
+建築士	建[けん] 築[ちく] 士[し]	architect		0026 0027
+僧（りょ）	僧[そう]（りょ）	(Buddhist) priest		0026
+神主	神[かん] 主[ぬし]	Shinto priest		0026
+神父	神[しん] 父[ぷ]	Catholic priest, Father		0026
+牧師	牧[ぼく] 師[し]	clergyman, minister, pastor		0026
+税理士	税[ぜい] 理[り] 士[し]	tax accountant		0026
+消防士	消[しょう] 防[ぼう] 士[し]	firefighter		0026
+実業家	実[じつ] 業[ぎょう] 家[か]	businessperson, entrepreneur		0026 0027
+コンサルタント	コンサルタント	consultant		0026
+占い師	占[うらな]い 師[し]	fortune-teller		0026 0027
+探偵	探[たん] 偵[てい]	detective		0026
+家政婦	家[か] 政[せい] 婦[ふ]	(house)maid, housekeeper		0026
+板前	板[いた] 前[まえ]	a cook (at a restaurant or an inn) who is skilled in Japanese cuisine		0026
+公募	公[こう] 募[ぼ]	inviting applications (for a post) from the public, open [public] recruitment		0026
+求人広告	求[きゅう] 人[じん] 広[こう] 告[こく]	an advertisement offering employment, a help-wanted (ad)		0026
+履歴書	履[り] 歴[れき] 書[しょ]	résumé		0026
+送付	送[そう] 付[ふ]	sending, forwarding		0026
+突破	突[とっ] 破[ぱ]	breaking through		0026
+雇用	雇[こ] 用[よう]	employment		0026 0042
+解雇	解[かい] 雇[こ]	dismissal, discharge, termination (of employment)		0026
+正社員	正[せい] 社[しゃ] 員[いん]	full-time [permanent] employee		0026 0027
+派遣社員	派[は] 遣[けん] 社[しゃ] 員[いん]	temporary worker (from an agency)		0026 0027
+契約社員	契[けい] 約[やく] 社[しゃ] 員[いん]	contract employee		0026
+取り～	取[と]り～	(emphatic prefix indicating an action is done thoroughly or with care)		0027 0145
+投資家	投[とう] 資[し] 家[か]	investor		0027
+着々と	着[ちゃく] 々[ちゃく]と	steadily, step by step		0027 0114
+どんどん	どんどん	rapidly		0027
+まっしぐら	まっしぐら	headlong, at full speed		0027
+即刻	即[そっ] 刻[こく]	immediately		0027 0103
+検索	検[けん] 索[さく]	search		0030
+動画	動[どう] 画[が]	video		0030
+掲載	掲[けい] 載[さい]	publication (of an advertisement)		0030
+閲覧	閲[えつ] 覧[らん]	reading, public perusal		0030
+ブログ	ブログ	blog		0030
+更新	更[こう] 新[しん]	renewal, update		0030
+掲示板	掲[けい] 示[じ] 板[ばん]	notice [bulletin] board	e.g.  電[でん] 子[し] 掲[けい] 示[じ] 板[ばん]	0030 0031
+書き込む	書[か]き 込[こ]む	to post on, to write in		0030
+投稿	投[とう] 稿[こう]	contribution (of an article, a magazine, etc.)		0030
+書き込み	書[か]き 込[こ]み	writing		0030
+購読	購[こう] 読[どく]	subscription		0030
+創刊	創[そう] 刊[かん]	issuance, publication		0030
+一部	一[いち] 部[ぶ]	one part, the first part, Part 1		0030 0031
+販売部数	販[はん] 売[ばい] 部[ぶ] 数[すう]	number of circulation [sales]		0030 0031
+週刊誌	週[しゅう] 刊[かん] 誌[し]	weekly magazine		0030 0031
+求人欄	求[きゅう] 人[じん] 欄[らん]	a help-wanted column, a section for job vacancy advertisements (in a newspaper's classified ads)		0030 0031
+今月号	今[こん] 月[げつ] 号[ごう]	the current issue [number] (of the magazine), this month's issue		0030 0031
+特集	特[とく] 集[しゅう]	special edition, feature article		0030
+評判	評[ひょう] 判[ばん]	reputation		0030
+好評	好[こう] 評[ひょう]	good reputation, popularity		0030
+博す	博[はく]す	to enjoy, to gain		0030
+不評	不[ふ] 評[ひょう]	bad reputation, disgrace, unpopularity	cf.  不[ふ] 評[ひょう] 判[ばん]	0030
+報道	報[ほう] 道[どう]	news	する：to inform, to report	0030
+報じる	報[ほう]じる	to report		0030
+取り上げる	取[と]り 上[あ]げる	to take up (news, topics); to confiscate		0030 0031 0145
+ニュース速報	ニュース 速[そく] 報[ほう]	breaking news		0030 0031
+中継	中[ちゅう] 継[けい]	relay		0030
+下火	下[した] 火[び]	die down; go out of vogue [fashion]	cf.  下[した] 火[び] is often used to describe a decline in the popularity or relevance of a person, product, or trend	0030
+ドキュメンタリー番組	ドキュメンタリー 番[ばん] 組[ぐみ]	documentary programme		0030 0031
+放映	放[ほう] 映[えい]	televise		0030
+衛星放送	衛[えい] 星[せい] 放[ほう] 送[そう]	satellite broadcasting		0030 0031
+オーバー	オーバー	exaggerated		0030
+宣伝	宣[せん] 伝[でん]	televising [airing, broadcasting]		0030
+誇張	誇[こ] 張[ちょう]	exaggeration		0030 0078
+放送局	放[ほう] 送[そう] 局[きょく]	broadcasting station		0030 0031
+ニュースキャスター	ニュースキャスター	newscaster		0030
+電子～	電[でん] 子[し]～	electronic ～		0031
+～部数	～ 部[ぶ] 数[すう]	number of ～ units [quantity]	e.g.  印[いん] 刷[さつ] 部[ぶ] 数[すう]<br>number of printed copies	0031
+～部	～ 部[ぶ]	～ part		0031
+～誌	～ 誌[し]	～ magazine		0031
+月刊誌	月[げっ] 刊[かん] 誌[し]	monthly magazine		0031
+～欄	～ 欄[らん]	～ column, ～ page, ～ section		0031
+投稿欄	投[とう] 稿[こう] 欄[らん]	the readers' column		0031
+コラム欄	コラム 欄[らん]	column (in newspaper [magazine])	cf. used in the context of writing or journalism to refer to a specific section of a publication where columns or articles are written by journalists, commentators, or other writers	0031
+～号	～ 号[ごう]	～ issue (of a magazine, journal, etc.)		0031
+創刊号	創[そう] 刊[かん] 号[ごう]	first issue		0031
+～速報	～ 速[そく] 報[ほう]	～ prompt [quick] report [announcement]		0031
+～番組	～ 番[ばん] 組[ぐみ]	～ programme		0031
+～放送	～ 放[ほう] 送[そう]	～ broadcast		0031
+～局	～ 局[きょく]	～ department		0031
+大々的	大[だい] 々[だい] 的[てき]	huge [immense]	cf. used to describe anything that is grand, majestic, or spectacular in scale or execution	0031
+早速	早[さっ] 速[そく]	immediately		0031
+頻繁	頻[ひん] 繁[ぱん]	frequent		0031
+続々	続[ぞく] 々[ぞく]	one after another, in rapid succession		0031
+財政破たん	財[ざい] 政[せい] 破[は]たん	economic collapse		0034 0035
+陥る	陥[おちい]る	to fall into (a trap, difficulties, etc.)		0034
+財政	財[ざい] 政[せい]	finances, financial affairs		0034
+破たん	破[は]たん	failure, collapse		0034
+転落	転[てん] 落[らく]	fall, tumble down		0034
+低迷	低[てい] 迷[めい]	slump, sluggish, recession		0034
+動向	動[どう] 向[こう]	tendency, trend		0034
+介入	介[かい] 入[にゅう]	intervention		0034
+引き下げる	引[ひ]き 下[さ]げる	to lower, to reduce, to cut		0034
+徴収	徴[ちょう] 収[しゅう]	collection, levy		0034
+納入	納[のう] 入[にゅう]	payment (of tax)		0034
+資金	資[し] 金[きん]	funds		0034
+運用	運[うん] 用[よう]	managing (profits) effectively		0034
+引き起こす	引[ひ]き 起[お]こす	to cause		0034 0035
+インフレ	インフレ	inflation (abbr.)	cf. インフレーション	0034
+デフレ	デフレ	deflation (abbr.)	cf. デフレーション	0034
+採算	採[さい] 算[さん]	profit		0034
+収支	収[しゅう] 支[し]	income		0034
+均衡	均[きん] 衡[こう]	balance, equilibrium		0034
+図る	図[はか]る	to plan, to attempt, to aim (at [for])		0034 0072
+内訳	内[うち] 訳[わけ]	breakdown (of expenses)		0034
+負債	負[ふ] 債[さい]	debt, liabilities		0034
+抱える	抱[かか]える	to have (a problem)	cf. used in a similar way to describe other types of burdens or responsibilities	0034
+経営不振	経[けい] 営[えい] 不[ふ] 振[しん]	business [economic] slump		0034 0035
+提携	提[てい] 携[けい]	cooperation, partnership		0034
+譲歩	譲[じょう] 歩[ほ]	compromise, concession		0034
+引き出す	引[ひ]き 出[だ]す	to withdraw		0034
+妥結	妥[だ] 結[けつ]	agreement, settlement, come to terms		0034
+還元	還[かん] 元[げん]	return (profits)		0034
+林業	林[りん] 業[ぎょう]	forestry		0034
+従事	従[じゅう] 事[じ]	engage in (particular field of work or activity)		0034
+漁船	漁[ぎょ] 船[せん]	fishing boat		0034
+港	港[みなと]	harbour, port		0034
+停泊	停[てい] 泊[はく]	anchoring, lowering anchor, anchorage		0034
+着工	着[ちゃっ] 工[こう]	starting (construction) work		0034
+製造	製[せい] 造[ぞう]	manufacturing		0034
+貨物船	貨[か] 物[もつ] 船[せん]	cargo ship		0034 0035
+工業地帯	工[こう] 業[ぎょう] 地[ち] 帯[たい]	industrial zone	cf. a region with a large concentration of factories and a high proportion of industrial production compared to other industries	0034 0035
+工業地域	工[こう] 業[ぎょう] 地[ち] 域[いき]	industrial area [district]	cf. One of the zoning districts defined by the City Planning Law. It is mainly designated to promote the convenience of industry. Schools, hospitals, hotels, etc. cannot be built.	0034 0035
+水産業	水[すい] 産[さん] 業[ぎょう]	marine products industry		0034
+鉱業	鉱[こう] 業[ぎょう]	mining		0034
+製造業	製[せい] 造[ぞう] 業[ぎょう]	manufacturing industry		0034 0035
+運輸業	運[うん] 輸[ゆ] 業[ぎょう]	transportation industry		0034
+小売業	小[こ] 売[うり] 業[ぎょう]	retail industry		0034
+不動産業	不[ふ] 動[どう] 産[さん] 業[ぎょう]	real estate business		0034
+医療	医[い] 療[りょう]	medical treatment [care], health care		0034
+福祉	福[ふく] 祉[し]	welfare, well-being		0034
+学習支援業	学[がく] 習[しゅう] 支[し] 援[えん] 業[ぎょう]	education support industry		0034
+重工業	重[じゅう] 工[こう] 業[ぎょう]	heavy industry		0034 0035
+鉄鋼業	鉄[てっ] 鋼[こう] 業[ぎょう]	steel industry		0034 0035
+造船業	造[ぞう] 船[せん] 業[ぎょう]	shipbuilding industry		0034
+軽工業	軽[けい] 工[こう] 業[ぎょう]	light industry		0034
+繊維工業	繊[せん] 維[い] 工[こう] 業[ぎょう]	textile industry		0034 0035
+財政～	財[ざい] 政[せい]～	～ finance, financial ～		0035
+財政赤字	財[ざい] 政[せい] 赤[あか] 字[じ]	budget [financial] deficit		0035
+引き上げる	引[ひ]き 上[あ]げる	to pull up, to raise, to hike (level, price, proportion)		0035 0146
+～不振	～ 不[ふ] 振[しん]	～ slump		0035
+業績不振	業[ぎょう] 績[せき] 不[ふ] 振[しん]	economic performance slump	cf. Refers specifically to a decline in business performance, such as a decrease in sales or profits. It focuses more on the financial aspect of the business.	0035
+遊覧船	遊[ゆう] 覧[らん] 船[せん]	pleasure [sightseeing] boat		0035
+～業	～ 業[ぎょう]	～ industry		0035
+～地帯	～ 地[ち] 帯[たい]	～ zone, ～ region		0035
+～地域	～ 地[ち] 域[いき]	～ region, ～ area, ～ district		0035
+アジア地域	アジア 地[ち] 域[いき]	Asia region		0035
+段階的	段[だん] 階[かい] 的[てき]	incremental, step-by-step, gradual		0035
+一気に	一[いっ] 気[き]に	immediately, straightaway		0035
+どうにか	どうにか	in some way, somehow (or other)		0035 0078
+転換	転[てん] 換[かん]	change, switch, conversion, turnabout		0038
+促す	促[うなが]す	to urge (a person to do)		0038
+質疑	質[しつ] 疑[ぎ]	question		0038
+異論	異[い] 論[ろん]	objection		0038
+唱える	唱[とな]える	to raise (an objection)		0038
+踏まえる	踏[ふ]まえる	to be based on		0038
+承認	承[しょう] 認[にん]	approval		0038
+採決	採[さい] 決[けつ]	vote		0038
+法案	法[ほう] 案[あん]	legislative proposal, a bill		0038
+審議	審[しん] 議[ぎ]	discussion, deliberation		0038
+採択	採[さい] 択[たく]	adoption		0038
+議題	議[ぎ] 題[だい]	subject [topic] for discussion		0038
+改革	改[かい] 革[かく]	reform		0038
+制定	制[せい] 定[てい]	enactment, establishment		0038
+整備	整[せい] 備[び]	prepare [draft] (a law)		0038
+法整備	法[ほう] 整[せい] 備[び]	legislation, legal development		0038
+改定	改[かい] 定[てい]	revision		0038
+施行	施[し] 行[こう]	enforcement		0038
+緩和	緩[かん] 和[わ]	relaxation, easing		0038
+声明	声[せい] 明[めい]	statement, declaration		0038
+措置	措[そ] 置[ち]	measure, step		0038
+万全	万[ばん] 全[ぜん]	thoroughgoing, all possible (measures, etc.)		0038
+異例	異[い] 例[れい]	exceptional case		0038
+寛大	寛[かん] 大[だい]	tolerance, leniency		0038
+調印	調[ちょう] 印[いん]	signature, signing, sealing		0038
+閣僚	閣[かく] 僚[りょう]	cabinet minister [colleague]		0038
+協議	協[きょう] 議[ぎ]	conference, consultation, discussion		0038
+腐敗	腐[ふ] 敗[はい]	corruption		0038
+発給	発[はっ] 給[きゅう]	issuance (of a passport)		0038
+訴訟	訴[そ] 訟[しょう]	lawsuit		0038
+賠償	賠[ばい] 償[しょう]	compensation		0038
+検察	検[けん] 察[さつ]	criminal investigation, prosecution		0038
+告訴	告[こく] 訴[そ]	charge, legal action		0038
+保障	保[ほ] 障[しょう]	guarantee, security		0038
+権利	権[けん] 利[り]	right		0038
+基本的人権	基[き] 本[ほん] 的[てき] 人[じん] 権[けん]	fundamental human rights		0038
+判決	判[はん] 決[けつ]	a (judicial) decision, a sentence, a verdict		0038
+死刑	死[し] 刑[けい]	capital punishment		0038
+懲役	懲[ちょう] 役[えき]	penal servitude, imprisonment		0038
+形成	形[けい] 成[せい]	formation		0038
+異民族	異[い] 民[みん] 族[ぞく]	different race [people, ethnic group]		0038 0039
+侵略	侵[しん] 略[りゃく]	invasion, aggression		0038
+復興	復[ふっ] 興[こう]	revival, reconstruction		0038
+古代文明	古[こ] 代[だい] 文[ぶん] 明[めい]	ancient civilisation		0038 0039
+繁栄	繁[はん] 栄[えい]	prosperity		0038
+衰退	衰[すい] 退[たい]	decline, degeneration		0038
+内戦	内[ない] 戦[せん]	civil war		0038
+紛争	紛[ふん] 争[そう]	dispute		0038
+分断	分[ぶん] 断[だん]	dividing into sections		0038
+発掘	発[はっ] 掘[くつ]	excavation		0038
+住居跡	住[じゅう] 居[きょ] 跡[あと]	dwelling residence [site]		0038 0039
+軍事力	軍[ぐん] 事[じ] 力[りょく]	military strength		0038
+増強	増[ぞう] 強[きょう]	reinforcement		0038
+異～	異[い]～	different ～		0039
+～民族	～ 民[みん] 族[ぞく]	～ race, ～ people, ～ ethnic group		0039
+漢民族	漢[かん] 民[みん] 族[ぞく]	Chinese people formerly of the Han race		0039
+遊牧民族	遊[ゆう] 牧[ぼく] 民[みん] 族[ぞく]	nomadic people [tribe]		0039
+～跡	～ 跡[あと]	～ ruins, ～ remains, ～ trace, ～ marks		0039
+傷跡	傷[きず] 跡[あと]	scar		0039
+再三	再[さい] 三[さん]	again and again		0039 0103
+一向に	一[いっ] 向[こう]に	completely, (not) at all		0039 0109
+大幅	大[おお] 幅[はば]	major, drastic		0039
+抜本的	抜[ばっ] 本[ぽん] 的[てき]	drastic, thoroughgoing		0039
+急速	急[きゅう] 速[そく]	rapid		0042
+格差	格[かく] 差[さ]	differential, gap		0042
+貧困層	貧[ひん] 困[こん] 層[そう]	underprivileged people		0042 0043 0160
+富裕層	富[ふ] 裕[ゆう] 層[そう]	wealthy people		0042
+安定	安[あん] 定[てい]	stability		0042
+健康保険	健[けん] 康[こう] 保[ほ] 険[けん]	health insurance		0042
+加入	加[か] 入[にゅう]	subscribing, obtaining cover [insurance]		0042
+就業	就[しゅう] 業[ぎょう]	employment		0042
+促進	促[そく] 進[しん]	promotion		0042
+推進	推[すい] 進[しん]	promotion		0042
+年金	年[ねん] 金[きん]	pension		0042
+受給	受[じゅ] 給[きゅう]	receipt (of a pension)		0042
+支給	支[し] 給[きゅう]	provision, supplying		0042
+少子化	少[しょう] 子[し] 化[か]	declining birthrate		0042 0043
+高齢化	高[こう] 齢[れい] 化[か]	ageing (of the population)		0042
+少子高齢化	少[しょう] 子[し] 高[こう] 齢[れい] 化[か]	declining birthrate and ageing population		0042 0043
+出生率	出[しゅっ] 生[しょう] 率[りつ]	birth rate		0042 0043
+未婚率	未[み] 婚[こん] 率[りつ]	percentage of unmarried people		0042
+平均寿命	平[へい] 均[きん] 寿[じゅ] 命[みょう]	average lifespan		0042 0043
+長寿国	長[ちょう] 寿[じゅ] 国[こく]	a country where many people live to an advanced age		0042 0043
+還暦	還[かん] 暦[れき]	sixtieth birthday		0042
+人口構造	人[じん] 口[こう] 構[こう] 造[ぞう]	population [demographic] structure		0042 0043
+高齢者	高[こう] 齢[れい] 者[しゃ]	senior citizen, old person		0042 0043
+介護	介[かい] 護[ご]	caregiving		0042
+ケア	ケア	care		0042
+看護	看[かん] 護[ご]	nursing, care (of the sick)		0042
+老いる	老[お]いる	to grow old, to age		0042
+老ける	老[ふ]ける	to grow old		0042
+若返る	若[わか] 返[がえ]る	to grow [get] younger, to restore youth		0042
+老後	老[ろう] 後[ご]	old age		0042
+乳幼児	乳[にゅう] 幼[よう] 児[じ]	infant		0042
+激減	激[げき] 減[げん]	sharp drop		0042
+激増	激[げき] 増[ぞう]	sudden increase		0042
+産休	産[さん] 休[きゅう]	maternity leave (abbr.)	cf.  産[さん] 前[ぜん] 産[さん] 後[ご] 休[きゅう] 暇[か]	0042
+育休	育[いく] 休[きゅう]	childcare leave (abbr.)	cf.  育[いく] 児[じ] 休[きゅう] 暇[か]	0042
+福利厚生	福[ふく] 利[り] 厚[こう] 生[せい]	welfare programme, (company-provided) benefits		0042
+充実	充[じゅう] 実[じつ]	enrichment, improvement		0042
+取り組む	取[と]り 組[く]む	to address [work on] (a problem)		0042 0145
+軽視	軽[けい] 視[し]	making light of, belittling		0042
+両立	両[りょう] 立[りつ]	to be compatible [consistent] (with)		0042
+こなす	こなす	to do [carry out]		0042
+～層	～ 層[そう]	～ class		0043 0160
+若年層	若[じゃく] 年[ねん] 層[そう]	younger generation		0043 0160
+中高年層	中[ちゅう] 高[こう] 年[ねん] 層[そう]	the middle-aged and the elderly		0043 0160
+先進国	先[せん] 進[しん] 国[こく]	advanced country		0043
+発展途上国	発[はっ] 展[てん] 途[と] 上[じょう] 国[こく]	developing countries		0043
+保育士	保[ほ] 育[いく] 士[し]	nursery-school teacher, childcare worker		0043
+失業者	失[しつ] 業[ぎょう] 者[しゃ]	unemployed person		0043
+いよいよ	いよいよ	finally		0043
+しっかり	しっかり	properly		0043
+めっきり	めっきり	really, remarkably		0043
+集中豪雨	集[しゅう] 中[ちゅう] 豪[ごう] 雨[う]	local downpour, torrential rainfall over a limited area		0046 0047
+土砂降り	土[ど] 砂[しゃ] 降[ぶ]り	downpour		0046 0047
+吹き荒れる	吹[ふ]き 荒[あ]れる	to rage		0046 0047
+強風	強[きょう] 風[ふう]	strong wind		0046
+突風	突[とっ] 風[ぷう]	a gust (of wind)		0046
+暴風雨	暴[ぼう] 風[ふう] 雨[う]	violent rainstorm		0046
+立ち込める	立[た]ち 込[こ]める	to hang over, to blanket		0046 0047
+降り積もる	降[ふ]り 積[つ]もる	to be piled, to be laying thick		0046 0047
+注意報	注[ちゅう] 意[い] 報[ほう]	warning, advisory		0046
+警報	警[けい] 報[ほう]	warning (signal), alarm (signal)		0046
+大雨洪水	大[おお] 雨[あめ] 洪[こう] 水[ずい]	heavy rain and flood		0046
+洪水	洪[こう] 水[ずい]	flood		0046
+高温多湿	高[こう] 温[おん] 多[た] 湿[しつ]	high temperature and humidity		0046
+温暖	温[おん] 暖[だん]	warm		0046
+海峡	海[かい] 峡[きょう]	strait, channel		0046
+海底	海[かい] 底[てい]	bottom of the sea		0046
+砂浜	砂[すな] 浜[はま]	sandy beach		0046
+打ち寄せる	打[う]ち 寄[よ]せる	to wash (the shore), lapping (against)		0046 0047
+海岸	海[かい] 岸[がん]	shore, coast		0046
+広大	広[こう] 大[だい]	vast		0046
+起伏	起[き] 伏[ふく]	ups and downs, undulations		0046
+山地	山[さん] 地[ち]	mountainous region		0046
+緩やか	緩[ゆる]やか	gentle, easy, soft		0046
+傾斜	傾[けい] 斜[しゃ]	slant, slope, incline		0046
+斜面	斜[しゃ] 面[めん]	slant, slope, incline		0046
+中腹	中[ちゅう] 腹[ふく]	halfway up [down]		0046
+山頂	山[さん] 頂[ちょう]	summit (of a mountain)		0046
+南半球	南[みなみ] 半[はん] 球[きゅう]	Southern Hemisphere		0046
+北半球	北[きた] 半[はん] 球[きゅう]	Northern Hemisphere		0046
+日の出	日[ひ]の 出[で]	sunrise		0046
+日の入り	日[ひ]の 入[い]り	sunset		0046
+日没	日[にち] 没[ぼつ]	sunset		0046
+金星	金[きん] 星[せい]	Venus		0046
+火星	火[か] 星[せい]	Mars		0046
+木星	木[もく] 星[せい]	Jupiter		0046
+水星	水[すい] 星[せい]	Mercury		0046
+土星	土[ど] 星[せい]	Saturn		0046
+惑星	惑[わく] 星[せい]	planet		0046
+衛星	衛[えい] 星[せい]	satellite		0046
+星座	星[せい] 座[ざ]	constellation		0046
+天体観測	天[てん] 体[たい] 観[かん] 測[そく]	astronomical observation, stargazing		0046
+満月	満[まん] 月[げつ]	full moon		0046
+三日月	三[み] 日[か] 月[づき]	crescent moon		0046
+集中豪雪	集[しゅう] 中[ちゅう] 豪[ごう] 雪[せつ]	heavy [torrential] snowfall		0047
+吹き抜ける	吹[ふ]き 抜[ぬ]ける	to blow through [across] (the room)		0047
+吹き寄せる	吹[ふ]き 寄[よ]せる	to drift (snow), to blow [drive] together		0047
+打ち付ける	打[う]ち 付[つ]ける	to nail, to bump [knock, dash] against		0047
+立ち上る	立[た]ち 上[のぼ]る	to go up, to rise, to ascend		0047
+ひっそり	ひっそり	still, quiet		0047
+果てしなく	果[は]てしなく	endlessly		0047
+きらきら	きらきら	sparkling		0047
+こうこうと	こうこうと	brilliantly, brightly		0047 0120
+ぽっかり	ぽっかり	floating, lightly, drifting		0047
+どんより	どんより	dark, gloomy		0047 0120
+ざあざあ	ざあざあ	pouring, heavily		0047
+ごうごう	ごうごう	roaring, rumbling, thundering, booming		0047
+ぽつぽつ	ぽつぽつ	sprinkle with rain [rain a little]		0047
+じめじめ	じめじめ	damp, humid		0047
+今にも	今[いま]にも	at any moment		0047
+偉大	偉[い] 大[だい]	great		0050
+画期的	画[かっ] 期[き] 的[てき]	epoch-making, revolutionary		0050 0051
+試作	試[し] 作[さく]	trial manufacture		0050
+太陽電池	太[たい] 陽[よう] 電[でん] 池[ち]	solar battery [cell]		0050
+ソーラーパネル	ソーラーパネル	solar panel		0050
+エネルギー源	エネルギー 源[げん]	energy source		0050 0051
+多様化	多[た] 様[よう] 化[か]	diversification		0050 0051
+原子力発電	原[げん] 子[し] 力[りょく] 発[はつ] 電[でん]	nuclear (electric) power generation		0050 0051
+仕組み	仕[し] 組[く]み	system		0050
+出力	出[しゅつ] 力[りょく]	generating power		0050
+変換	変[へん] 換[かん]	transformation, conversion		0050
+開発プロジェクト	開[かい] 発[はつ]プロジェクト	project development		0050 0051
+発足	発[ほっ] 足[そく]	starting, inauguration		0050 0091
+精密	精[せい] 密[みつ]	precise, detailed, accurate		0050
+省エネ	省[しょう]エネ	saving energy, energy conservation		0050 0051 0161
+電力	電[でん] 力[りょく]	electric power		0050
+～ボルト	～ボルト	～ bolt		0050
+電圧	電[でん] 圧[あつ]	voltage		0050
+購入	購[こう] 入[にゅう]	purchase		0050
+家電	家[か] 電[でん]	household appliances (abbr.)	cf.  家[か] 庭[てい] 用[よう] 電[でん] 気[き] 製[せい] 品[ひん]	0050
+省エネ家電	省[しょう]エネ 家[か] 電[でん]	energy-saving household appliances		0050 0051
+離陸	離[り] 陸[りく]	taking [flying] off		0050
+着陸	着[ちゃく] 陸[りく]	landing		0050
+金属	金[きん] 属[ぞく]	metal		0050
+加工	加[か] 工[こう]	processing		0050
+塗装	塗[と] 装[そう]	coating, painting		0050
+さびる	さびる	to rust		0050
+鉄	鉄[てつ]	iron		0050
+銅	銅[どう]	copper		0050
+人工衛星	人[じん] 工[こう] 衛[えい] 星[せい]	artificial satellite		0050 0051
+打ち上げる	打[う]ち 上[あ]げる	to launch		0050
+ハードウェア	ハードウェア	hardware		0050
+ソフトウェア	ソフトウェア	software		0050
+処理	処[しょ] 理[り]	processing		0050
+アナログ回路	アナログ 回[かい] 路[ろ]	analogue circuit		0050
+デジタル回路	デジタル 回[かい] 路[ろ]	digital circuit		0050
+機能	機[き] 能[のう]	function		0050
+携わる	携[たずさ]わる	to participate [take part]		0050
+特許	特[とっ] 許[きょ]	patent		0050
+申請	申[しん] 請[せい]	application		0050
+取得	取[しゅ] 得[とく]	acquisition		0050
+革命的	革[かく] 命[めい] 的[てき]	revolutionary		0051
+～源	～ 源[げん]	～ source		0051 0160
+発生源	発[はっ] 生[せい] 源[げん]	source of an outbreak		0051
+デジタル化	デジタル 化[か]	digitisation		0051
+火力発電	火[か] 力[りょく] 発[はつ] 電[でん]	thermal power generation		0051
+水力発電	水[すい] 力[りょく] 発[はつ] 電[でん]	water-power [hydroelectric power] generation		0051
+太陽光発電	太[たい] 陽[よう] 光[こう] 発[はつ] 電[でん]	photovoltaic (power) generation		0051
+～プロジェクト	～プロジェクト	～ project		0051
+省～	省[しょう]～	～ saving, ～ conserving		0051 0161
+～家電	～ 家[か] 電[でん]	～ electrical appliances		0051
+デジタル家電	デジタル 家[か] 電[でん]	digital home appliances		0051
+人工～	人[じん] 工[こう]～	artificial ～		0051
+人工知能	人[じん] 工[こう] 知[ち] 能[のう]	artificial intelligence		0051
+次々	次[つぎ] 々[つぎ]	one after another		0051
+未だに	未[いま]だに	yet, even now		0051
+果たして	果[は]たして	sure enough, as expected		0051
+すっかり	すっかり	completely, (not) at all		0051
+経る	経[へ]る	to pass, to elapse		0054
+更ける	更[ふ]ける	to grow late		0054
+日取り	日[ひ] 取[ど]り	fixed [appointed, scheduled] date		0054
+前途	前[ぜん] 途[と]	one's future		0054 0085
+前途洋々	前[ぜん] 途[と] 洋[よう] 々[よう]	promising future		0054
+前途多難	前[ぜん] 途[と] 多[た] 難[なん]	difficult times ahead		0054
+帰省	帰[き] 省[せい]	return to one's family home, homecoming		0054
+際	際[さい]	when		0054
+折	折[おり]	occasion, opportunity		0054
+～振り	～ 振[ぶ]り	for the first time in ～	e.g.  十[じゅう] 年[ねん] 振[ぶ]り	0054 0055
+隔月	隔[かく] 月[げつ]	alternate months		0054
+終日	終[しゅう] 日[じつ]	all day (long)		0054
+方向	方[ほう] 向[こう]	direction		0054
+方角	方[ほう] 角[がく]	direction		0054
+方向転換	方[ほう] 向[こう] 転[てん] 換[かん]	change of direction, turnabout		0054
+面する	面[めん]する	to face, to front on, to look out		0054
+前方	前[ぜん] 方[ぽう]	front, ahead, forward		0054
+後方	後[こう] 方[ほう]	rear [back]		0054
+突き進む	突[つ]き 進[すす]む	to charge through, to plough [plow], to head (towards a goal)		0054 0055
+踏み出す	踏[ふ]み 出[だ]す	to step forth [forward]		0054 0055
+左右対称	左[さ] 右[ゆう] 対[たい] 称[しょう]	bilateral symmetry		0054 0055
+真ん中	真[ま]ん 中[なか]	middle		0054
+向かい	向[む]かい	opposite		0054
+正面	正[しょう] 面[めん]	front, facade		0054
+背後	背[はい] 後[ご]	back, rear		0054
+後部	後[こう] 部[ぶ]	back [rear] (of a train)		0054
+裏側	裏[うら] 側[がわ]	backside		0054
+裏表	裏[うら] 表[おもて]	back and front		0054
+スタート地点	スタート 地[ち] 点[てん]	starting point		0054 0055
+区画整理	区[く] 画[かく] 整[せい] 理[り]	land readjustment [rezoning]		0054 0055
+区域	区[く] 域[いき]	zone, area, district		0054
+余地	余[よ] 地[ち]	room (for consideration, etc.), space		0054
+領土	領[りょう] 土[ど]	territory (of a country)		0054
+一帯	一[いっ] 帯[たい]	whole place, entire area		0054
+全域	全[ぜん] 域[いき]	the whole area		0054
+交通網	交[こう] 通[つう] 網[もう]	transportation network		0054 0055
+合格圏	合[ごう] 格[かく] 圏[けん]	passing range (on a test)		0054 0055
+合格圏内	合[ごう] 格[かく] 圏[けん] 内[ない]	(within) passing range (on a test)		0054
+合格圏外	合[ごう] 格[かく] 圏[けん] 外[がい]	outside the passing grade		0054
+突き～	突[つ]き～	(indicates of thrusting or piercing through)		0055
+突き抜ける	突[つ]き 抜[ぬ]ける	to break through, to cut across		0055
+踏み込む	踏[ふ]み 込[こ]む	to step into, to break [rush] into; to involve into (someone's issue), to have an in-depth discussion		0055 0153
+左右非対称	左[さ] 右[ゆう] 非[ひ] 対[たい] 称[しょう]	asymmetrical, lack of symmetry		0055
+～地点	～ 地[ち] 点[てん]	～ point		0055
+～網	～ 網[もう]	～ network		0055 0160
+かねて	かねて	for a long time, since some time [long] ago		0055 0103
+時折	時[とき] 折[おり]	every now and then		0055
+隔週	隔[かく] 週[しゅう]	every two weeks, fortnightly		0055
+にわかに	にわかに	suddenly		0055
+依然	依[い] 然[ぜん]	still		0055
+ほぼ	ほぼ	more or less		0055
+前提	前[ぜん] 提[てい]	premise, assumption		0058
+整う	整[ととの]う	to be ready, to be prepared, to become whole [complete]		0058
+満たす	満[み]たす	to satisfy		0058
+不利	不[ふ] 利[り]	disadvantage, handicap		0058
+提示	提[てい] 示[じ]	show, presentation		0058
+根拠	根[こん] 拠[きょ]	basis, ground		0058
+検証	検[けん] 証[しょう]	validation, verification		0058
+要因	要[よう] 因[いん]	(primary) factor		0058
+重なり合う	重[かさ]なり 合[あ]う	to lie one on [on top of, upon] another		0058 0059
+成果	成[せい] 果[か]	result		0058
+もたらす	もたらす	to produce, to receive, to obtain		0058
+結果論	結[けっ] 果[か] 論[ろん]	second guessing (after the event), hindsight	cf.  結[けっ] 果[か] 論[ろん]にすぎない<br>a situation where it is easy to analyse or judge something after it has already happened, but at the time, it was difficult to predict or understand	0058 0059
+研究成果	研[けん] 究[きゅう] 成[せい] 果[か]	research results [findings]		0058 0059
+目途	目[め] 途[ど]	prospect, outlook	cf.  目[め] 途[ど]が 立[た]つ<br>there is a clear prospect or outlook for a particular situation or goal	0058 0085
+由緒	由[ゆい] 緒[しょ]	history, origin	cf.  由[ゆい] 緒[しょ]ある<br>historic	0058
+由来	由[ゆ] 来[らい]	origin		0058
+双方	双[そう] 方[ほう]	both parties, both sides		0058
+思惑	思[おも] 惑[わく]	intention, expectation, speculation		0058
+追い込む	追[お]い 込[こ]む	to drive into a corner		0058 0059 0144
+合意	合[ごう] 意[い]	agreement		0058
+妥協	妥[だ] 協[きょう]	compromise		0058
+対等	対[たい] 等[とう]	equality (in terms of status or rank)		0058
+平等	平[びょう] 等[どう]	equality (in terms of rights and treatment)		0058
+不平等	不[ふ] 平[びょう] 等[どう]	inequality		0058
+対人関係	対[たい] 人[じん] 関[かん] 係[けい]	personal relationship		0058 0059
+交流	交[こう] 流[りゅう]	interchange, mingling, exchange		0058
+間柄	間[あいだ] 柄[がら]	(friendly) relationship		0058
+縁、縁	縁[えん]、 縁[ふち]	縁[えん]：fate, karma, a relation<br>縁[ふち]：edge; rim [frames]		0058 0065
+仲	仲[なか]	relationship, relations		0058
+親交	親[しん] 交[こう]	(close) friendship		0058
+国際交流	国[こく] 際[さい] 交[こう] 流[りゅう]	international exchange		0058 0059
+著しい	著[いちじる]しい	remarkable		0058 0078 0079
+異変	異[い] 変[へん]	accident; strange [extraordinary] event occurred		0058
+容体	容[よう] 体[だい]	condition (of a patient)		0058
+急変	急[きゅう] 変[へん]	sudden change [turn]		0058
+悪化	悪[あっ] 化[か]	worsening		0058 0084
+一変	一[いっ] 変[ぺん]	change [reverse] one's (attitude)		0058
+劇的	劇[げき] 的[てき]	dramatic		0058
+激変	激[げき] 変[へん]	violent [sudden] change		0058
+推移	推[すい] 移[い]	development, change		0058
+変遷	変[へん] 遷[せん]	change, transition		0058
+変動	変[へん] 動[どう]	fluctuation		0058
+転身	転[てん] 身[しん]	change [switch] of profession [job, position]		0058
+話し込む	話[はな]し 込[こ]む	to be deep in talk		0059
+～論	～ 論[ろん]	～ theory		0059
+～成果	～ 成[せい] 果[か]	～ result		0059
+かかわり合う	かかわり 合[あ]う	to have relations (with), to have a connection (with)		0059
+～交流	～ 交[こう] 流[りゅう]	～ exchange		0059
+しょせん	しょせん	after all, in the end		0059
+まんまと	まんまと	completely, successfully, easily (deceive or outsmart someone)		0059
+渋々	渋[しぶ] 々[しぶ]	reluctantly, unwillingly, against one's will		0059
+あて	あて	aim, objective; reliable, dependable; expectations, calculations		0064
+見込み	見[み] 込[こ]み	forecast, estimation; possibility; hope, promise		0064
+拍子	拍[ひょう] 子[し]	a beat [rhythm] of time in music; measurement of beat [time] by momentum or pace; the moment of an unexpected event	cf. ～した 拍[ひょう] 子[し]に<br>the moment of X happened, Y instantly occurred	0064
+節	節[ふし]	node (of a stem); joint (of body parts); tune, melody; point (of view)		0064
+筋	筋[すじ]	muscle; string, fibre (of plants); coherent (in speaking clearly and logically); reason, logic; nature, aptitude, talent; source		0064
+模様	模[も] 様[よう]	pattern, design, figure; state of things, progress; look like, seem		0065
+様	様[さま]	situation; appearance, state		0065
+柄	柄[がら]	pattern, design; character, nature	cf.  柄[がら]の 悪[わる]い<br>ill-bred, boorish, vulgar	0065
+軸	軸[じく]	axis, axle; handle, holder, stem (as support); centre, pivot		0065
+芯	芯[しん]	core lead, core		0065
+隙	隙[すき]	chance, opportunity; gap	cf.  隙[すき]をねらう<br>to watch for a chance, to watch for an unguarded moment	0065
+ひび	ひび	crack; rift		0065
+溝	溝[みぞ]	ditch, drain; groove; gap (distance or feeling)		0065
+枠	枠[わく]	frame, box (off); limit		0065
+仰ぐ	仰[あお]ぐ	to look up at; to seek, to respect, to look up to; to ask (for help)		0070
+飢える	飢[う]える	to be hungry; to be starved (for affection)		0070
+潤う	潤[うるお]う	to be moistened, to become wet; to benefit from, to become prosperous		0070
+犯す	犯[おか]す	to commit a crime [sin]; to break [violate] (a law)		0070
+侵す	侵[おか]す	to invade, to violate; to be affected [attacked]		0070
+冒す	冒[おか]す	to run [take] (a risk)		0070
+顧みる	顧[かえり]みる	to look back (on); to neglect, to be ignored		0070
+省みる	省[かえり]みる	to reflect (on)		0070 0084
+掲げる	掲[かか]げる	to put up [fly]; to put up [hang out] (a sign, a banner)		0070
+かすむ	かすむ	to be hazy [misty], to be dimmed [blurred]; to be upstaged		0070
+かなう	かなう	to be fulfilled; to suit; to be matched [equal]; to bear (the heat); to be reasonable [justifiable] (standard, decision, law）		0070 0085
+絡む	絡[から]む	to become entwined [entangled]; to involve; to find fault, to pick a quarrel		0071
+砕く	砕[くだ]く	to break (a stone) into pieces; to be crushed [destroyed]; to explain plainly [in simple terms]		0071
+暮れる	暮[く]れる	to get [grow] dark; to be heartbroken [in deep sorrow]; to be lost in thoughts, to be unsure what to do	cf.  日[ひ]が 暮[く]れないうちに<br>before the skies get dark	0071
+こたえる	こたえる	to take its toll on (heat, etc.); to respond [react] (to)		0071
+さらう	さらう	to kidnap; to sweep away; to clean out (pond, drain, etc.)		0071
+仕切る	仕[し] 切[き]る	to divide [partition]; to manage [organise]		0071
+しのぐ	しのぐ	to starve off (one's hunger); to surpass [be ahead of]		0071
+断つ	断[た]つ	to discontinue; to interrupt [cut off]; to give up		0071
+絶つ	絶[た]つ	to cut off (interaction); to take one own's life; to be no end, to be continuously happened		0071
+募る	募[つの]る	to become increasingly dissatisfied (with); to recruit		0072
+遠ざかる	遠[とお]ざかる	to sail away; to fade away; to become more distant		0072
+粘る	粘[ねば]る	to be sticky, to be adhesive; to be in the game (until the end); to stay (for a long time)		0072 0096
+はかる	はかる	to measure one's real intentions [true motives]; to pick one's timing		0072
+謀る	謀[はか]る	to plot (a murder)		0072
+諮る	諮[はか]る	to consult [confer] (with the members)		0072
+はじく	はじく	to flick (one's finger); to repel (water); to reject (mail)		0072
+控える	控[ひか]える	to wait; to reserve; to avoid taking too much (salt, sugar); to write down		0072
+響く	響[ひび]く	to resound; to be heard far away; to remain [stay, resonate] (with somebody); to influence		0073
+ふるまう	ふるまう	to behave, to act; to treat		0073
+紛れる	紛[まぎ]れる	to get mixed; to be distracted; to be diverted		0073
+もがく	もがく	to struggle (with hands and feet); to make desperate efforts		0073
+もむ	もむ	to massage; to jostle; to have various experience		0073
+催す	催[もよお]す	to hold (an event); to feel (physiological change)		0073
+漏れる	漏[も]れる	to leak (light, sound, liquid, etc.), to reveal [leak] information; to be omitted; to be left out (from selection); to pour out one's feeling		0073
+やんわり	やんわり	gently, mildly		0078 0126
+遠回し	遠[とお] 回[まわ]し	indirect, roundabout, beat around the bush		0078
+それとなく	それとなく	indirectly, casually		0078
+そっけない	そっけない	curt [cold] (manner)		0078
+ぶっきらぼう	ぶっきらぼう	curt [blunt] (manner)		0078
+すんなり	すんなり	smoothly, easily		0078
+円滑	円[えん] 滑[かつ]	smooth		0078
+鮮やか	鮮[あざ]やか	vivid, clear, fresh		0078
+鮮明	鮮[せん] 明[めい]	vivid, clear, fresh		0078
+うっとうしい	うっとうしい	gloomy, depressing, annoying		0078 0084
+煙たい	煙[けむ]たい	feel awkward [uncomfortable, ill at ease]		0078
+煩わしい	煩[わずら]わしい	troublesome, annoying, complicated		0078 0079
+いやに	いやに	strangely; awfully, terribly		0078 0102
+変	変[へん]	strangely		0078
+代わる代わる	代[か]わる 代[が]わる	by turns, alternately		0078
+交互に	交[こう] 互[ご]に	in turn, alternately		0078
+とっさに	とっさに	instantly		0078 0103
+反射的	反[はん] 射[しゃ] 的[てき]	reflexively		0078
+不意に	不[ふ] 意[い]に	suddenly, unexpectedly		0078 0115
+終始	終[しゅう] 始[し]	from beginning to end		0078
+あらかじめ	あらかじめ	beforehand, in advance		0078 0109
+事前に	事[じ] 前[ぜん]に	in advance		0078
+前もって	前[まえ]もって	in advance		0078 0103
+辛うじて	辛[かろ]うじて	barely, narrowly, with difficulty		0078 0108
+ぎりぎり	ぎりぎり	at the last minute, just in time		0078
+極めて	極[きわ]めて	extremely		0078
+ことごとく	ことごとく	all, everything		0078 0115
+丸ごと	丸[まる]ごと	whole, altogether		0078
+もっぱら	もっぱら	entirely, exclusively		0078 0114
+大まか	大[おお]まか	roughly, generally		0078
+まるっきり	まるっきり	completely, (not) at all		0078
+ろくに	ろくに	(not) well, (not) properly, (not) enough		0078 0109
+やけに	やけに	terribly, awfully, horribly		0078 0102
+あえて	あえて	dare (to do), to forcibly go ahead		0078 0109
+強いて	強[し]いて	by force, forcibly	e.g.  強[し]いて 言[い]えば<br>if one had to say [compare, make a choice]	0078 0109
+エレガント	エレガント	elegant		0079
+たくましい	たくましい	strong, robust, sturdy		0079
+タフ	タフ	tough		0079
+見所がある	見[み] 所[どころ]がある	great [a lot of] promise		0079
+見苦しい	見[み] 苦[ぐる]しい	ugly, indecent, shameful, disgraceful		0079
+ぞんざい	ぞんざい	rude, impolite		0079
+無礼	無[ぶ] 礼[れい]	rude		0079
+つれない	つれない	cold, unkind, unfriendly		0079
+あやふや	あやふや	vague, ambiguous		0079 0127
+ふさわしい	ふさわしい	suitable		0079
+好ましい	好[この]ましい	good, favourable		0079
+望ましい	望[のぞ]ましい	good, desirable		0079
+冴えない	冴[さ]えない	dull, boring, depressed		0079
+すがすがしい	すがすがしい	refreshing (morning air)		0079
+ばかばかしい	ばかばかしい	silly, ridiculous, absurd		0079
+簡素	簡[かん] 素[そ]	plain, simple		0079 0090
+シンプル	シンプル	simple		0079
+紛らわしい	紛[まぎ]らわしい	confusing		0079
+ややこしい	ややこしい	complicated, complex; troublesome		0079
+目覚ましい	目[め] 覚[ざ]ましい	remarkable, amazing, brilliant		0079
+うんざり	うんざり	bored		0084 0127
+案じる	案[あん]じる	to worry [be anxious] (about)		0084
+告げる	告[つ]げる	to tell		0084
+おだてる	おだてる	to flatter, to sweet-talking		0084
+お世辞を言う	お 世[せ] 辞[じ]を 言[い]う	to say [nice, pretty] things, to flatter		0084
+ごまをする	ごまをする	to flatter		0084
+思い返す	思[おも]い 返[かえ]す	to recall, to look back, to think back		0084
+振り返る	振[ふ]り 返[かえ]る	to look back		0084
+回顧	回[かい] 顧[こ]	recollection, reminiscence		0084
+尽くす	尽[つ]くす	to do everything, to do to the utmost of one's power		0084
+傾ける	傾[かたむ]ける	to concentrate (one's attention), to devote (to one's research)		0084
+やり遂げる	やり 遂[と]げる	to carry out, to accomplish, to complete		0084 0155
+投げ出す	投[な]げ 出[だ]す	to give up, to resign		0084 0153
+放り出す	放[ほう]り 出[だ]す	to give up, to abandon		0084
+張り合う	張[は]り 合[あ]う	to compete, to contend		0084 0152
+競う	競[きそ]う	to compete, to contend, to contest		0084
+競い合う	競[きそ]い 合[あ]う	to vie with [compete against] (one another)		0084
+見逃す	見[み] 逃[のが]す	to let go unchallenged [unpunished]; to miss, to overlook		0084 0147
+大目に見る	大[おお] 目[め]に 見[み]る	to overlook, to bend the rules, to turn a blind eye, to tolerate		0084
+フォロー	フォロー	follow (up), support, smooth (a matter)		0084
+サポート	サポート	support, backup		0084
+なじむ	なじむ	to get used to, to become familiar with, to adapt oneself		0084
+こじれる	こじれる	to get complicated, to get into a tangle		0084
+ぎくしゃく	ぎくしゃく	strained, awkward, uneasy, troubled		0084
+もつれる	もつれる	to get confused [complicated]		0084
+ばてる	ばてる	to be tired, to be worn out		0084 0096
+込み上げる	込[こ]み 上[あ]げる	to be filled, to rise up, to overflow		0084
+途絶える	途[と] 絶[だ]える	to be interrupted, to cut off, to come to an end		0084
+異動	異[い] 動[どう]	change, relocation, shift, transfer		0084
+該当	該[がい] 当[とう]	relevant [appropriate] (rules, act, case, article)		0084
+補足	補[ほ] 足[そく]	addition, supplement		0085 0091
+付け加える	付[つ]け 加[くわ]える	to add		0085
+定める	定[さだ]める	to establish (rule, law)		0085
+確定	確[かく] 定[てい]	decide, fix		0085
+持続	持[じ] 続[ぞく]	last, continue, maintain		0085 0091
+長続き	長[なが] 続[つづ]き	last (for a long time), continue		0085
+キープ	キープ	keep [hold] (service)		0085
+見合わせる	見[み] 合[あ]わせる	to postpone		0085 0147
+設置	設[せっ] 置[ち]	installation (of machinery)		0085
+備え付ける	備[そな]え 付[つ]ける	to install, to equip		0085
+取り付ける	取[と]り 付[つ]ける	to install, to furnish, to fit, to set up		0085
+改装	改[かい] 装[そう]	remodel, redecorate, do over		0085
+リフォーム	リフォーム	remake, reform, renovate		0085
+経歴	経[けい] 歴[れき]	one's (past) career [record]		0085
+キャリア	キャリア	career, personal history		0085
+経緯	経[けい] 緯[い]	circumstances [details] (of how it started)		0085
+いきさつ	いきさつ	circumstances [details] (of how it started)		0085
+構想	構[こう] 想[そう]	scheme, plan, idea, design		0085
+利点	利[り] 点[てん]	advantage		0085
+メリット	メリット	merit		0085
+朗報	朗[ろう] 報[ほう]	good [happy] news		0085
+喜ばしい知らせ	喜[よろこ]ばしい 知[し]らせ	good [happy] news		0085
+最善	最[さい] 善[ぜん]	one's best		0085
+ベスト	ベスト	best		0085
+過ち	過[あやま]ち	error, fault, mistake		0085
+無意味	無[む] 意[い] 味[み]	meaningless		0085
+ナンセンス	ナンセンス	nonsense		0085
+あべこべ	あべこべ	opposite [wrong] way		0085
+まちまち	まちまち	various, different		0085 0121
+見通し	見[み] 通[とお]し	future, forecast		0085
+行く先	行[ゆ]く 先[さき]	one's destination, whereabouts		0085
+過剰	過[か] 剰[じょう]	excess, surplus (production)		0090
+過多	過[か] 多[た]	excess (supply)		0090
+過密	過[か] 密[みつ]	overpopulation		0090
+過疎	過[か] 疎[そ]	underpopulation, depopulation		0090
+過失	過[か] 失[しつ]	negligence, carelessness		0090
+簡易	簡[かん] 易[い]	simple, easy		0090
+簡便	簡[かん] 便[べん]	simple, convenient, handy		0090
+簡略	簡[かん] 略[りゃく]	simple, concise, brief		0090
+明朗	明[めい] 朗[ろう]	cheerful; clear, honesty		0090
+明快	明[めい] 快[かい]	clear [specific] (instructions, answer)		0090
+明白	明[めい] 白[はく]	clear, obvious, evident		0090
+明瞭	明[めい] 瞭[りょう]	clear [distinct, articulate] (pronunciation)		0090
+膨大	膨[ぼう] 大[だい]	massive, [enormous, extensive] (amount)		0090
+過大	過[か] 大[だい]	expect too much, impossibly high expectation		0090
+絶大	絶[ぜつ] 大[だい]	generous [enormous, full] (support, influence, power)		0090
+規範	規[き] 範[はん]	standard, norm, criterion		0090
+規律	規[き] 律[りつ]	order, discipline		0090
+規格	規[き] 格[かく]	standard (of a material, product, or part)		0090
+発覚	発[はっ] 覚[かく]	detection, come to light		0091
+発散	発[はっ] 散[さん]	letting [giving] off (feeling)		0091
+補充	補[ほ] 充[じゅう]	filling up (a vacancy), recruitment		0091
+補償	補[ほ] 償[しょう]	compensation		0091
+補完	補[ほ] 完[かん]	supplement, complement		0091
+唖然	唖[あ] 然[ぜん]	speechless, dumbfounded, be stunned (into silence)		0091
+呆然	呆[ぼう] 然[ぜん]	in blank amazement, in dumb surprise		0091
+漠然	漠[ばく] 然[ぜん]	vague, obscure		0091
+毅然	毅[き] 然[ぜん]	dauntless [resolute] (attitude)		0091
+弁明	弁[べん] 明[めい]	excuse, explanation (circumstances or condition)		0091
+釈明	釈[しゃく] 明[めい]	excuse, explanation (fault or apology)		0091
+弁護	弁[べん] 護[ご]	defence, pleading, speak for [in favour of]		0091
+弁解	弁[べん] 解[かい]	explanation, (making an) excuse		0091
+継続	継[けい] 続[ぞく]	continuation (act, deed, behaviour, conduct)		0091
+存続	存[そん] 続[ぞく]	continuation [retention] (of existence)		0091
+続行	続[ぞっ] 行[こう]	continuation (of work, session)		0091
+賛同	賛[さん] 同[どう]	approval, support, endorse		0091
+同調	同[どう] 調[ちょう]	sympathy (similar action, opinion)		0091
+同感	同[どう] 感[かん]	same (feeling, agreement, opinion)		0091
+共鳴	共[きょう] 鳴[めい]	sympathy [resonance] (similar agreement)		0091
+甚だしい	甚[はなは]だしい	enormous [heavy] (loss)		0096
+華々しい	華[はな] 々[ばな]しい	glorious, splendid, spectacular		0096
+はかばかしい	はかばかしい	(not) satisfactory, well	cf. usually with negative verbs	0096
+浅ましい	浅[あさ]ましい	to be deeply ashamed; pitiful, wretched, miserable		0096
+勇ましい	勇[いさ]ましい	brave, courageous		0096
+痛ましい	痛[いた]ましい	sad, miserable, tragic (death, accident)		0096
+忌まわしい	忌[い]まわしい	disgusting, offensive, unpleasant (memory, behaviour)		0096
+なだらか	なだらか	gently sloping		0096
+滑らか	滑[なめ]らか	soft, smooth (object's surface)		0096
+あざとい	あざとい	unscrupulous [cunning, sly] (business practice)		0096
+目ざとい	目[め]ざとい	quick-eyed, sharp-sighted		0096
+あくどい	あくどい	vicious, nasty, crooked, dishonest		0096
+厳か	厳[おごそ]か	solemn, grave		0096
+ねだる	ねだる	to pester (to do, for a thing)		0096
+果てる	果[は]てる	to come to an end; to die		0096
+はける	はける	to drain away, to flow off; to sell well		0096
+潤む	潤[うる]む	to be wet [moist] (in tears)		0097
+くるむ	くるむ	to wrap		0097
+ひるむ	ひるむ	to recoil (from), to be daunted (by)		0097
+ほつれる	ほつれる	to become frayed [loosen]		0097
+ほどける	ほどける	to come loose [undone]		0097
+ほぐれる	ほぐれる	to be softened, to be relaxed		0097
+ほころびろ	ほころびろ	to come apart [undone, open] (at the seam)		0097
+途切れる	途[と] 切[ぎ]れる	to be snapped [ended] (winning streaks)		0097
+千切れる	千[ち] 切[ぎ]れる	to come off; to become torn		0097
+縮れる	縮[ちぢ]れる	to be frizzled [curly]		0097
+何かと	何[なに]かと	in many [various] ways; one thing or another		0097
+何やら	何[なに]やら	something	cf.  何[なに]か	0097
+何分	何[なに] 分[ぶん]	please; anyway, anyhow		0097
+いわば	いわば	so to speak, as it were		0097
+いわゆる	いわゆる	what they call		0097
+いわく	いわく	say		0097
+心得	心[こころ] 得[え]	rules [regulations] (to be observed)		0097
+心掛け	心[こころ] 掛[が]け	mental attitude, way of thinking		0097
+心構え	心[こころ] 構[がま]え	mental attitude, preparedness		0097
+心配り	心[こころ] 配[くば]り	consideration, thoughtful attention		0097
+心残り	心[こころ] 残[のこ]り	regret		0097
+手分け	手[て] 分[わ]け	division of work [labour]		0097
+手入れ	手[て] 入[い]れ	well-kept, maintenance		0097
+手回し	手[て] 回[まわ]し	preparation, arrangement	e.g.  手[て] 回[まわ]しがいい<br>to be fully prepared beforehand	0097
+手加減	手[て] 加[か] 減[げん]	making allowances [adjustments], leniency		0097
+はなはだ	はなはだ	very much, deeply, extremely	cf. usually with negative verbs	0102
+すこぶる	すこぶる	very, extremely, highly		0102
+至って	至[いた]って	very [quite, extremely] (of a certain degree)		0102
+ごく	ごく	very [quite, extremely] (small or tiny as emphasise)		0102
+むやみに	むやみに	thoughtlessly; immoderate, unreasonable		0102
+やたら	やたら	too much, excessively, extremely, unbearably		0102
+うんと	うんと	really, very		0102
+むちゃくちゃ	むちゃくちゃ	awfully, extremely, terribly, bitterly		0102
+ことに	ことに	especially		0102
+ことのほか	ことのほか	unusually, exceptionally, uncommonly		0102
+ひときわ	ひときわ	stands out, outstanding		0102
+とりわけ	とりわけ	especially		0102
+とびきり	とびきり	the very best, extraordinary		0102
+格別	格[かく] 別[べつ]	particular, special, exceptional		0102
+断然	断[だん] 然[ぜん]	(comparing with others) absolutely, certainly		0102
+やや	やや	little, slightly, somewhat		0102
+幾分	幾[いく] 分[ぶん]	somewhat		0102
+いささか	いささか	a little, a bit, somewhat	cf. usually with negative verbs	0102
+即座に	即[そく] 座[ざ]に	immediately, promptly		0103
+すかさず	すかさず	immediately (preventing chance from slipping off)		0103
+先だって	先[せん]だって	the other day, some time ago, some days ago		0103
+とっくに	とっくに	already, long time ago		0103
+ひところ	ひところ	once, at one time, some years ago		0103
+追って	追[お]って	later (on), afterwards		0103
+ぼつぼつ	ぼつぼつ	soon		0103
+じき	じき	soon, shortly		0103
+目下	目[もっ] 下[か]	current, present		0103
+かねがね	かねがね	for a long time		0103
+しばし	しばし	brief, short		0103
+長らく	長[なが]らく	for a long time		0103
+年中	年[ねん] 中[じゅう]	all year round		0103
+年がら年中	年[ねん]がら 年[ねん] 中[じゅう]	all year round		0103
+始終	始[し] 終[じゅう]	all the time (without pausing)		0103
+四六時中	四[し] 六[ろく] 時[じ] 中[ちゅう]	all day; always, all the time		0103
+再三再四	再[さい] 三[さん] 再[さい] 四[し]	over and over again, repeatedly		0103
+ちょくちょく	ちょくちょく	often		0103
+ちょいちょい	ちょいちょい	often		0103
+ことによると	ことによると	perhaps, maybe		0108
+さぞ	さぞ	surely, must be		0108
+さぞかし	さぞかし	surely, must be		0108
+一見	一[いっ] 見[けん]	one glance		0108
+どうやら	どうやら	somehow, looks like		0108
+危うく	危[あや]うく	nearly, almost; barely, narrowly		0108
+幸いにも	幸[さいわ]いにも	fortunately		0109
+不幸にも	不[ふ] 幸[こう]にも	unfortunately		0109
+幸いなことに	幸[さいわ]いなことに	fortunately		0109
+不幸なことに	不[ふ] 幸[こう]なことに	unfortunately		0109
+案の定	案[あん]の 定[じょう]	as expected		0109
+何とぞ	何[なに]とぞ	please, kindly		0109
+仮に	仮[かり]に	if, suppose		0109
+到底	到[とう] 底[てい]	cannot possibly, (not) at all		0109
+一概に	一[いち] 概[がい]に	indiscriminately, generalise		0109
+よもや	よもや	(not) really		0109
+一挙に	一[いっ] 挙[きょ]に	at a stroke, at once		0114
+一斉に	一[いっ] 斉[せい]に	all together		0114
+一躍	一[いち] 躍[やく]	famous overnight, shooting to fame		0114
+一通り	一[ひと] 通[とお]り	in a general way, briefly		0114
+逐一	逐[ちく] 一[いち]	one by one, in detail		0114
+現に	現[げん]に	actually		0114
+真に	真[しん]に	truly, really		0114
+直に	直[じか]に	directly, immediately, straight		0114
+切に	切[せつ]に	sincerely, from the bottom of one's heart		0114
+転々と	転[てん] 々[てん]と	wander from place to place, roam about		0114
+黙々と	黙[もく] 々[もく]と	silently		0114
+悠々	悠[ゆう] 々[ゆう]	easily, enough, without difficulty		0114
+努めて	努[つと]めて	do one's best, as far [much] as possible		0114
+極力	極[きょく] 力[りょく]	to the best of one's ability		0114
+ひたすら	ひたすら	earnestly, with all one's heart		0114
+隈なく	隈[くま]なく	look [search] everywhere		0115
+軒並み	軒[のき] 並[な]み	all-round, across the board, one after another		0115
+根こそぎ	根[ね]こそぎ	completely swept [washed] away		0115
+大方	大[おお] 方[かた]	almost, nearly, for the most part		0115
+概ね	概[おおむ]ね	on the whole		0115
+総じて	総[そう]じて	generally, on the whole (tendency)		0115
+自ずと	自[おの]ずと	naturally, of [by] itself		0115
+自ずから	自[おの]ずから	naturally, of [by] itself		0115
+ひとりでに	ひとりでに	of [by] itself, automatically		0115
+元来	元[がん] 来[らい]	naturally, essentially; primarily, originally		0115
+そもそも	そもそも	to begin [start] with, basically		0115
+たかが	たかが	only, just, merely		0115
+たかだか	たかだか	at most, not more than		0115
+俄然	俄[が] 然[ぜん]	suddenly		0115
+断固	断[だん] 固[こ]	decisively, determination, firmly, flatly		0115
+人知れず	人[ひと] 知[し]れず	secretly, in secret		0115
+とかく	とかく	to tend to (do)		0115
+とやかく	とやかく	say this and that, say things, criticise		0115
+よくも	よくも	(how) dare [can]		0115
+いたずらに	いたずらに	to no purpose, for nothing		0115
+おもむろに	おもむろに	slowly (and quietly)		0115
+ひとえに	ひとえに	entirely, solely		0115
+ひいては	ひいては	as well		0115
+各々	各[おの] 々[おの]	each		0115
+くれぐれも	くれぐれも	repeatedly, over and over (again)		0115
+がらりと	がらりと	changed completely [totally, dramatically]		0120
+がくんと	がくんと	suddenly [sharply] (fell, dropped)		0120
+ぐんぐん	ぐんぐん	rapidly, vigorously, remarkably, sharply		0120
+ずんずん	ずんずん	quickly, rapidly		0120
+じわりと	じわりと	gradually, slowly (but steadily)		0120
+からりと	からりと	cleared up (completely), perfectly (fine days)		0120
+ぐっしょり	ぐっしょり	soaking, dripping, drenched (wet)		0120
+きらりと	きらりと	sparkle, gleam, glisten		0120
+きっかり	きっかり	exactly, precisely, sharp, on the dot		0120
+まるまる	まるまる	whole, entirely		0120
+ちらほら	ちらほら	here and there, by [in] twos and threes		0120
+しんと	しんと	silently, (deadly) quiet		0120
+しんなり	しんなり	soft, tender, pliant		0120
+じっとり	じっとり	damp, soak, wet		0120
+ちくちく	ちくちく	prickle, sting		0120
+すかすか	すかすか	dry, not juicy, desiccated		0121
+ぎゅうぎゅう	ぎゅうぎゅう	jam, squeeze, cram		0121
+ぱんぱん	ぱんぱん	bursting, (overly) tight		0121
+ゆるゆる	ゆるゆる	baggy, loose, too big; watery		0121
+ぐにゃぐにゃ	ぐにゃぐにゃ	soft, mushy, out of shape		0121
+こちこち	こちこち	(frozen) hard, dried up, stiff		0121
+とびとび	とびとび	without order, at random		0121
+とんとん	とんとん	even, equal, be on par		0121
+ずかずか	ずかずか	directly, unhesitatingly, without permission		0121
+ぬけぬけ	ぬけぬけ	shameless		0121
+のこのこ	のこのこ	nonchalantly, obtrusively		0121
+ばんばん	ばんばん	one after another, continuously, madly (spending money)		0121
+おずおず	おずおず	hesitatingly, hesitantly, faint-heartedly		0121
+すごすご	すごすご	dejectedly, with a broken heart		0121
+ずけずけ	ずけずけ	(speak) bluntly, frankly, straight		0121
+ぶうぶう	ぶうぶう	complain, grumble		0121
+ぽつりと	ぽつりと	mutter (a few words), say (a single word)		0121
+ぽんぽん	ぽんぽん	without reserve, outspoken, speak one's mind		0121
+てくてく	てくてく	walk on (a far distance), trudge, plod		0121
+どたどた	どたどた	noisily (sound of feet trampling)		0121
+とぼとぼ	とぼとぼ	trudge, plod (without energy)		0121
+ひょいと	ひょいと	easily, lightly (and nimbly), with agility		0121
+ひらりと	ひらりと	swiftly, nimbly, quickly		0121
+ふらりと	ふらりと	aimlessly, without any definite purpose		0121
+ふらっと	ふらっと	aimlessly, without any definite purpose		0121
+さめざめ	さめざめ	(cry, weep) quietly, softly		0121
+しげしげ	しげしげ	look [gaze, stare] hard		0121
+まざまざ	まざまざ	vividly, clearly		0121
+おちおち	おちおち	(not) calmly, comfortably, peacefully		0121
+がぶり	がぶり	bite, eat, chew (with a gulp)		0126
+ばくばく	ばくばく	pounding [throbbing] (heart)		0126
+ごくごく	ごくごく	gulp (water) down		0126
+ありあり	ありあり	clearly, distinctly, obviously		0126
+ひしひし	ひしひし	hard, imminent, close		0126
+ほとほと	ほとほと	quite, really, utterly, entirely, completely	cf.  手[て]を 焼[やい]ている<br>at a loss, having a terrible time	0126
+すいすい	すいすい	(solving problems) smoothly, easily; (moving) swiftly		0126
+するする	するする	slither [dart, scoot, nimbly] (up a tree)		0126
+ころりと	ころりと	easily, completely, effortlessly, just like that		0126
+のっそり	のっそり	stolidly, slowly, impassively		0126
+ぱたりと	ぱたりと	unexpectedly, suddenly (ending, interrupted)		0126
+ぱったり	ぱったり	unexpectedly, suddenly (ending, interrupted)		0126
+みっちり	みっちり	hard, in earnest		0126
+くすくす	くすくす	giggle, chuckle, laugh quietly		0126
+ごしごし	ごしごし	scrub		0126
+どしどし	どしどし	willingly, without [reserve, hesitation]		0126
+どやどや	どやどや	barge, throng (noisily)		0126
+みすみす	みすみす	before one's very eyes, helplessly		0126
+めきめき	めきめき	remarkably, rapidly		0126
+うずうず	うずうず	to be itching, to be anxious [impatient]		0127
+じりじり	じりじり	to get sick [tired], to be fed up (with), to get bored (with)		0127
+びくびく	びくびく	to be afraid [scared] (of)		0127
+もんもんと	もんもんと	to be worried [discontented]		0127
+やきもき	やきもき	to worry, to be anxious		0127
+あたふた	あたふた	in a hurry, to fly into a panic, to be flustered		0127
+どきんと	どきんと	(heart) pounded, thumped		0127
+まごまご	まごまご	to be at loss, to be confused, to be unsure of what to do		0127
+あくせく	あくせく	(work) busily, very hard		0127
+いそいそ	いそいそ	lightheartedly, cheerfully, happily		0127
+せかせか	せかせか	to be restless		0127
+きょとんと	きょとんと	blankly, to have a blank look		0127
+ぽかんと	ぽかんと	to look blank [vacant], to be lost in thought		0127
+はればれ	はればれ	to feel cheerful [refreshed, relieved]		0127
+ほれぼれ	ほれぼれ	to be fascinated [charmed, admired]		0127
+ぶすっと	ぶすっと	(look) sulky, sullen		0127
+むっつり	むっつり	moody, sullen, taciturn		0127
+さばさば	さばさば	to feel refreshed, to be frank [open-hearted]		0127
+ねちねち	ねちねち	persistent, insistent, nagging		0127
+うかうか	うかうか	carelessly, negligently, inattentive		0127
+けろりと	けろりと	as if nothing had happened, to feel nothing		0127
+すらっと	すらっと	slender, slim		0127
+すらりと	すらりと	slender, slim		0127
+ちょこまか	ちょこまか	running around (restlessly, busily), to be restless		0127
+うやむや	うやむや	unsettled, undecided, non-committal		0127
+かんかん	かんかん	furious, very angry		0127
+たじたじ	たじたじ	staggering, confused, overwhelmed		0127
+顔が売れる	顔[かお]が 売[う]れる	to be well known, to become popular		0132
+顔を立てる	顔[かお]を 立[た]てる	to save face, to not embarrass (someone)		0132
+頭が下がる	頭[あたま]が 下[さ]がる	to admire		0132
+頭を抱える	頭[あたま]を 抱[かか]える	to puzzle over (one's question), to unsure what to do		0132
+目がくらむ	目[め]がくらむ	to be greedy [blinded]		0132
+目が肥える	目[め]が 肥[こ]える	to have a good eye, to appreciate		0132
+目が冴える	目[め]が 冴[さ]える	to be wide awake		0132
+目が高い	目[め]が 高[たか]い	to have an expert [discerning] eye		0132
+目が届く	目[め]が 届[とど]く	to keep an eye		0132
+目にする	目[め]にする	to see, to observe, to catch sight		0132
+目もくれない	目[め]もくれない	to be indifferent, to turn a deaf ear, to pay no attention, to ignore		0132
+目を引く	目[め]を 引[ひ]く	to draw [attract] attention		0132
+目を離す	目[め]を 離[はな]す	to let (somebody) out of sight, to take [keep] one's eyes off		0133
+口が肥える	口[くち]が 肥[こ]える	refined palate [taste] in food		0133
+口が滑る	口[くち]が 滑[すべ]る	to make a slip of the tongue		0133
+口を挟む	口[くち]を 挟[はさ]む	to interrupt, to put [slip] in (a word)		0133
+口をつぐむ	口[くち]をつぐむ	to shut [close] one's mouth		0133
+耳につく	耳[みみ]につく	to be ringing (in one's ears)		0133
+耳に挟む	耳[みみ]に 挟[はさ]む	to hear a rumour		0133
+鼻にかける	鼻[はな]にかける	to boast, to brag		0133
+鼻につく	鼻[はな]につく	to get sick [tired], to be fed up (with)		0133
+鼻をつく	鼻[はな]をつく	to assail one's nostrils (smell), to have sharp [offensive] smell		0133
+手に余る	手[て]に 余[あま]る	to be beyond [above] one's ability		0133
+手に負えない	手[て]に 負[お]えない	to be unmanageable, to be uncontrollable		0133
+手に乗る	手[て]に 乗[の]る	to fall into (a trap)		0133
+手を切る	手[て]を 切[き]る	to cut, to break off (relationship, connection, etc.)		0133
+手を差し伸べる	手[て]を 差[さ]し 伸[の]べる	to give [lend] a helping hand		0133
+手を尽くす	手[て]を 尽[つ]くす	to do every possible means		0133
+手を回す	手[て]を 回[まわ]す	to take measures (of action)		0133
+手を焼く	手[て]を 焼[や]く	to find difficulty (of handling), to have an unpleasant experience		0134
+手を入れる	手[て]を 入[い]れる	to correct, to improve, to rework		0134
+手を打つ	手[て]を 打[う]つ	to take some steps, to take a measure of action		0134
+手を引く	手[て]を 引[ひ]く	to withdraw oneself, to back out		0134
+腕を磨く	腕[うで]を 磨[みが]く	to develop [improve] one's skill		0134
+腕を振るう	腕[うで]を 振[ふ]るう	to show one's talent [ability]		0134
+肩を並べる	肩[かた]を 並[なら]べる	to be on same level [a part, equal] as		0134
+肩を持つ	肩[かた]を 持[も]つ	to side (on someone else)		0134
+肩の荷が下りる	肩[かた]の 荷[に]が 下[お]りる	to load off one's responsibility		0134
+首を捻る	首[くび]を 捻[ひね]る	to be in doubt; to rack one's brain, to think hard		0134
+首を突っ込む	首[くび]を 突[つ]っ 込[こ]む	to poke [stick] one's nose		0134
+腹をくくる	腹[はら]をくくる	to be very determined, to be well prepared		0138
+腹を読む	腹[はら]を 読[よ]む	to read one's thoughts, to enter into someone's mind		0138
+腹を割る	腹[はら]を 割[わ]る	to talk frankly, to have a heart-to-heart talk		0138
+胸が詰まる	胸[むね]が 詰[つ]まる	to have a lump in the throat		0138
+胸を貸す	胸[むね]を 貸[か]す	to allow a junior sumo wrestler to practice with one		0138
+胸を借りる	胸[むね]を 借[か]りる	to practice with a senior sumo wrestler (as sparring partner)		0138
+胸を突く	胸[むね]を 突[つ]く	to pierce (words) to one's heart, to be startled		0138
+懐が暖かい	懐[ふところ]が 暖[あたた]かい	to have a full purse, to be flush of money		0138
+懐が寒い	懐[ふところ]が 寒[さむ]い	to have an empty purse, to be short of money		0138
+懐が深い	懐[ふところ]が 深[ふか]い	broad-minded (person)		0138
+足が早い	足[あし]が 早[はや]い	to go bad easily		0138
+足が出る	足[あし]が 出[で]る	to exceed, to go over, to overrun		0138
+足を洗う	足[あし]を 洗[あら]う	to quit, to give up		0138
+身を立てる	身[み]を 立[た]てる	to make a living, to establish oneself		0139
+身を引く	身[み]を 引[ひ]く	to abandon (one's post), to resign		0139
+身にしみる	身[み]にしみる	to be deeply touched		0139
+気が引ける	気[き]が 引[ひ]ける	to feel hesitant, to feel awkward		0139
+気が置けない	気[き]が 置[お]けない	to easy to get on with		0139
+気が晴れる	気[き]が 晴[は]れる	to be refreshed, to cheer up		0139
+気に障る	気[き]に 障[さわ]る	to get on one's nerves, to hurt one's feelings, to offend someone		0139
+気に病む	気[き]に 病[や]む	to worry about, to feel bad		0139
+気を利かせる	気[き]を 利[き]かせる	to be sensible enough, to have a hint		0139
+気を抜く	気[き]を 抜[ぬ]く	to relax (one's attention)		0139
+気を紛らわす	気[き]を 紛[まぎ]らわす	to divert [distract] oneself, to get [take] one's mind off		0139
+気を紛らす	気[き]を 紛[まぎ]らす	to divert [distract] oneself, to get [take] one's mind off		0139
+気を持たせる	気[き]を 持[も]たせる	to raise one's hopes, to encourage someone to expect something		0139
+息が詰まる	息[いき]が 詰[つ]まる	to choke, to suffocate		0139
+息を吞む	息[いき]を 吞[の]む	to be breathtaking, to be thrilling (scenery, sightseeing)		0139
+息を引き取る	息[いき]を 引[ひ]き 取[と]る	to die, to pass away, to breathe one's last		0139
+息をつく	息[いき]をつく	to take a short rest [relax], to take a breath		0139
+心が通う	心[こころ]が 通[かよ]う	to understand each other, to have a good communication		0140
+心を奪われる	心[こころ]を 奪[うば]われる	to be fascinated [captivated, won over]		0140
+心を砕く	心[こころ]を 砕[くだ]く	to take great pains, to make every effort		0140
+虫がいい	虫[むし]がいい	selfish, self-seeking		0140
+虫が好かない	虫[むし]が 好[す]かない	to (have a) dislike		0140
+泥をかぶる	泥[どろ]をかぶる	to take [bear] the blame		0140
+顔に泥を塗る	顔[かお]に 泥[どろ]を 塗[ぬ]る	to bring disgrace, to lose face		0140
+花が咲く	花[はな]が 咲[さ]く	to have a lively conversation		0140
+芽が出る	芽[め]が 出[で]る	to sprout (success), to work out		0140
+根に持つ	根[ね]に 持[も]つ	to have a grudge, to hold something against somebody		0140
+猫をかぶる	猫[ねこ]をかぶる	to play [act] innocent		0140
+尾を引く	尾[お]を 引[ひ]く	to leave a long and thin trail, to have a lasting effect		0140
+しっぽをつかむ	しっぽをつかむ	to find fault, to catch out		0140
+言い～	言[い]い～	(indicates actions involving conversations)		0144
+言い返す	言[い]い 返[かえ]す	to refute, to answer back		0144
+言い聞かせる	言[い]い 聞[き]かせる	to tell, to admonish, to warn		0144
+言いつける	言[い]いつける	to tell (secretly); to order [instruct] (a person to do)		0144
+言い張る	言[い]い 張[は]る	to insist on, to stick to one's point		0144
+打ち切る	打[う]ち 切[き]る	to cancel, to break off, to stop		0144
+追い～	追[お]い～	catch ～		0144
+追い上げる	追[お]い 上[あ]げる	to catch up (with other opponents), to close the gap with somebody		0144
+追い詰める	追[お]い 詰[つ]める	to be driven into a corner		0144
+追い払う	追[お]い 払[はら]う	to drive off [away], to disperse (a crowd)		0145
+押し～	押[お]し～	push ～		0145
+押し掛ける	押[お]し 掛[か]ける	to call on (a person) uninvited		0145
+押し切る	押[お]し 切[き]る	to force (one's way)		0145
+押し付ける	押[お]し 付[つ]ける	to push, to force, to compel		0145
+押し寄せる	押[お]し 寄[よ]せる	to surge [crowd] towards; to be rushed (of fatigue)		0145
+使い～	使[つか]い～	usage of ～		0145
+使いこなす	使[つか]いこなす	to make full use, to handle [manage] efficiently		0145
+使い込む	使[つか]い 込[こ]む	to embezzle [misappropriate] (public or firm's money)		0145
+使い果たす	使[つか]い 果[は]たす	to use up (money), to exhaust (energy)		0145
+使い分ける	使[つか]い 分[わ]ける	to use properly, to use according to one's needs		0145
+取り扱う	取[と]り 扱[あつか]う	to deal in, to conduct [carry on] business		0145
+取り締まる	取[と]り 締[し]まる	to control, to regulate, to enforce (a law)		0146
+取り調べる	取[と]り 調[しら]べる	to question, to interrogate, to investigate		0146
+取り立てる	取[と]り 立[た]てる	to collect (debts)	cf.  取[と]り 立[た]てて<br>especially	0146
+取り次ぐ	取[と]り 次[つ]ぐ	to transmit, to convey (a message)		0146
+取り巻く	取[と]り 巻[ま]く	to be surrounded (by people, environment, circumstances, etc.)		0146
+取り乱す	取[と]り 乱[みだ]す	to be upset (about accidents, news, etc.)		0146
+取り寄せる	取[と]り 寄[よ]せる	to order, to send away (an item)		0146
+引き～	引[ひ]き～	(implies something involving pulling back, hauling, withdrawing, etc.)		0146
+引き落とす	引[ひ]き 落[お]とす	to be debited [deducted] from one's account		0146
+引き込む	引[ひ]き 込[こ]む	to engage someone's interest [attention]		0146
+引き下がる	引[ひ]き 下[さ]がる	to back down, to back off, to withdraw		0146
+引き立つ	引[ひ]き 立[た]つ	to look better [finer, nicer], to stand out		0146
+引き締める	引[ひ]き 締[し]める	to straighten oneself up, to brace oneself		0146
+見～	見[み]～	(indicates observation [appreciation])		0147
+見合う	見[み] 合[あ]う	to proportionate, to balance each other (income, price, ability, condition, scale, etc.)		0147
+見落とす	見[み] 落[お]とす	to overlook, to miss		0147
+見極める	見[み] 極[きわ]める	to see through, to discern		0147
+見込む	見[み] 込[こ]む	to expect, to anticipate		0147
+見過ごす	見[み] 過[す]ごす	to overlook		0147
+見計らう	見[み] 計[はか]らう	to be at the right [proper] time		0147
+見抜く	見[み] 抜[ぬ]く	to see through (someone's nature, truth)		0147
+～合う	～ 合[あ]う	～ with [to, at] each other		0152
+かみ合う	かみ 合[あ]う	to engage [mesh] (with)		0152
+釣り合う	釣[つ]り 合[あ]う	to be in balance, to be in proportion		0152
+～込む	～ 込[こ]む	～ into		0152
+駆け込む	駆[か]け 込[こ]む	to rush into		0152
+食い込む	食[く]い 込[こ]む	to cut into; to be eaten [drained, make inroads] into (resources)		0152
+忍び込む	忍[しの]び 込[こ]む	to sneak in, to creep into, to get in secretly		0152
+付け込む	付[つ]け 込[こ]む	to take advantage (of someone's weakness)		0152
+突っ込む	突[つ]っ 込[こ]む	to stuff [cram, pack]; to crash, to plunge; to poke [stick] one's nose		0152
+溶け込む	溶[と]け 込[こ]む	to adapt oneself to, to fit [blend] into		0152
+呑み込む	呑[の]み 込[こ]む	to understand	cf. ～の 波[なみ]に 呑[の]み 込[こ]まれる<br>the influence change of a society is becoming worse	0152
+巻き込む	巻[ま]き 込[こ]む	to involve in, to drag (someone) in		0153
+割り込む	割[わ]り 込[こ]む	to cut queue [line]; to interrupt (a conversation)		0153
+～渡る	～ 渡[わた]る	～ cross		0153
+行き渡る	行[い]き 渡[わた]る	to spread, to go around		0153
+晴れ渡る	晴[は]れ 渡[わた]る	to clear up; (a sky) becomes clear		0153
+響き渡る	響[ひび]き 渡[わた]る	to resound; to be heard far away		0153
+～立てる	～ 立[た]てる	～ stand		0153
+飾り立てる	飾[かざ]り 立[た]てる	to decorate ornately [gaudily, lavishly]		0153
+騒ぎ立てる	騒[さわ]ぎ 立[た]てる	to make a big fuss, to raise an uproar		0153
+責め立てる	責[せ]め 立[た]てる	to press [urge] (someone to do)		0153
+～出す	～ 出[だ]す	～ out		0153
+逃げ出す	逃[に]げ 出[だ]す	to run away (from a place)		0153
+抜け出す	抜[ぬ]け 出[だ]す	to slip out (from a room), to quietly leave (a place)		0153
+乗り出す	乗[の]り 出[だ]す	to lean out (of a window), to lean forward; to start [launch] (a survey)		0154
+はみ出す	はみ 出[だ]す	to stick out, to be hanging out		0154
+～止める	～ 止[と]める	～ stop		0154
+食い止める	食[く]い 止[と]める	to prevent, to put a stop		0154
+突き止める	突[つ]き 止[と]める	to find out (the truth), to identify [locate] (a problem)		0154
+～替える	～ 替[か]える	～ change		0154
+立て替える	立[た]て 替[か]える	to lend [pay] (on someone's behalf)		0154
+～直る	～ 直[なお]る	～ fix		0154
+立ち直る	立[た]ち 直[なお]る	to recover [get over] (oneself)		0154
+開き直る	開[ひら]き 直[なお]る	to turn [grow] defiant, to take [assume] a so-what attitude		0154
+行き詰まる	行[い]き 詰[づ]まる	to come to a deadlock [standstill]		0154
+折り返す	折[お]り 返[かえ]す	to turn around, to return; to loopback (a message)		0154
+食い違う	食[く]い 違[ちが]う	to be inconsistent [contradict] (opinions, conversations, thoughts, etc.)		0154
+差し支える	差[さ]し 支[つか]える	to interfere [affect] (with inconvenience and problems)		0154
+たどり着く	たどり 着[つ]く	to finally reach a destination (after a struggle)		0154
+乗り切る	乗[の]り 切[き]る	to weather [ride out] (storm, typhoon, or extreme cold or hot weather)		0155
+働きかける	働[はたら]きかける	to pressure, to seek action (from the government)		0155
+持て余す	持[も]て 余[あま]す	to be unmanageable, do not know what to do (time, money, etc.)		0155
+寄りかかる	寄[よ]りかかる	to lean (on, against, over); to rely [depend] on		0155
+割り当てる	割[わ]り 当[あ]てる	to assign (task, thing, role)		0155
+～団	～ 団[だん]	～ organisation		0160
+合唱団	合[がっ] 唱[しょう] 団[だん]	chorus, choir group		0160
+～派	～ 派[は]	～ faction		0160
+保守派	保[ほ] 守[しゅ] 派[は]	the conservatives, conservative forces		0160
+正統派	正[せい] 統[とう] 派[は]	orthodox school		0160
+～隊	～ 隊[たい]	～ army, ～ party, ～ team		0160
+探検隊	探[たん] 検[けん] 隊[たい]	expeditionary [exploration] party		0160
+～系	～ 系[けい]	～ system, ～ course		0160
+理工系	理[り] 工[こう] 系[けい]	science and engineering course		0160
+文系	文[ぶん] 系[けい]	humanities course		0160
+外資系	外[がい] 資[し] 系[けい]	foreign-affiliated firm [company]		0160
+生態系	生[せい] 態[たい] 系[けい]	ecosystem		0160
+～類	～ 類[るい]	～ type		0160
+アルコール類	アルコール 類[るい]	alcohol		0160
+～界	～ 界[かい]	～ world		0160
+～帯	～ 帯[たい]	～ zone		0160
+大気圏	大[たい] 気[き] 圏[けん]	the atmosphere		0160
+勢力圏	勢[せい] 力[りょく] 圏[けん]	sphere [range] of influence, a domain		0160
+暴風圏	暴[ぼう] 風[ふう] 圏[けん]	storm zone		0160
+～面	～ 面[めん]	～ aspect		0160
+～視	～ 視[し]	～ regarding as		0160
+～観	～ 観[かん]	～ view		0160
+～欲	～ 欲[よく]	～ desire		0160
+独占欲	独[どく] 占[せん] 欲[よく]	desire for exclusive possession		0160
+～味	～ 味[み]	～ -ness		0160
+人情味	人[にん] 情[じょう] 味[み]	kindness, warm-heartedness, the human touch		0160
+～下	～ 下[か]	～ under		0160
+占領下	占[せん] 領[りょう] 下[か]	under occupation (of military)		0160
+戦時下	戦[せん] 時[じ] 下[か]	in times of war		0160
+～難	～ 難[なん]	～ troubled		0160
+～状	～ 状[じょう]	～ form, ～ state, ～ appearance		0160
+パウダー状	パウダー 状[じょう]	powdered form		0160
+～大	～ 大[だい]	～ size(d）		0160
+～策	～ 策[さく]	～ support		0160
+支援策	支[し] 援[えん] 策[さく]	support measures		0160
+～権	～ 権[けん]	～ right		0160
+永住権	永[えい] 住[じゅう] 権[けん]	right of permanent residence		0160
+著作権	著[ちょ] 作[さく] 権[けん]	copyright		0160
+主導権	主[しゅ] 導[どう] 権[けん]	leadership		0160
+～性	～ 性[しょう]	～ nature(d)		0160
+照れ性	照[て]れ 性[しょう]	self-consciousness, bashfulness, shyness		0160
+供給源	供[きょう] 給[きゅう] 源[げん]	source of supply		0160
+誤～	誤[ご]～	error ～		0161
+誤送信	誤[ご] 送[そう] 信[しん]	misdelivery		0161
+当～	当[とう]～	our ～, this ～, current ～		0161
+純～	純[じゅん]～	pure ～, polite ～, genuine ～		0161
+原～	原[げん]～	original ～, raw ～, native ～		0161
+私～	私[し]～	private ～		0161
+養～	養[よう]～	adopted ～		0161
+直～	直[ちょく]～	direct ～		0161
+定～	定[てい]～	regular ～		0161
+乱～	乱[らん]～	excessive ～		0161
+蜜～	蜜[みつ]～	secret ～		0161
+活～	活[かつ]～	active ～	e.g.  活[かっ] 火[か] 山[ざん]<br>active volcano	0161
+試～	試[し]～	test ～		0161
+深～	深[しん]～	deep ～		0161
+微～	微[び]～	fine ～		0161
+過～	過[か]～	over ～		0161
+即～	即[そく]～	ready ～, immediately ～		0161
+双～	双[そう]～	mutual ～, both ～ , bi- ～		0161
+広～	広[こう]～	wide ～		0161
+真～	真[しん]～	real ～, true ～		0161
+生～	生[き]～	pure ～		0161
+有～	有[ゆう]～	existence ～, with ～		0161
+有意義	有[ゆう] 意[い] 義[ぎ]	meaningful, significant, useful		0161
+素～	素[す]～	bare ～		0161
+丸～	丸[まる]～	full ～, exact ～, entire ～		0161
+継ぎ目	継[つ]ぎ 目[め]	seam, joint		0161
+～柄	～ 柄[がら]	～ nature, ～ pattern		0161
+～並み	～ 並[な]み	row of ～, range ～, average ～		0161
+～越し	～ 越[ご]し	over ～		0161
+～任せ	～ 任[まか]せ	leaving ～ (up) to somebody, trusting ～ to somebody [something]		0161
+～心地	～ 心地[ごこち]	comfortable ～		0161
+～がい	～がい	worth ～, reason for ～		0161

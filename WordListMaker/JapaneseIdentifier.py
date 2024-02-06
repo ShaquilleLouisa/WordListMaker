@@ -24,11 +24,11 @@ def wordHasHiragana(word):
             return True
     return False
 
-def getHiraganaFromLine(part):
+def getKanaFromLine(part):
     hiragana = ''
     for word in part:
         for c in word:
-            if re.search(u"[\u3040-\u309F]", c):
+            if re.search(u"[\u3040-\u309F]", c) or re.search(u"[\u30A0-\u30FF]", c):
                 hiragana += c
     return hiragana
 
@@ -38,9 +38,9 @@ def partIsEnglish(part):
             return True
     return False
 
-def partIsHiragana(part):
+def partIsKana(part):
     for word in part.split():
         for c in word:
-            if c == '[' and (wordHasHiragana(word) or wordHasKanji(word)):
+            if c == '[' and (wordHasHiragana(word) or wordHasKatakana(word)):
                 return True
     return False
