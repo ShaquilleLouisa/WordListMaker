@@ -2,6 +2,9 @@ import japanize_matplotlib
 import pandas as pd
 import sys
 
+
+import fitz
+
 from functools import partial
 from PyQt6.QtCore import *
 from PyQt6.QtGui import *
@@ -17,9 +20,6 @@ from WordRemover import *
 
 class MainWindow(QMainWindow):
     japanize_matplotlib.japanize()
-    #kanji = []
-    #hiragana = []
-    #english = []
     shuffleAndNewPdf = True
 
     def __init__(self):
@@ -116,10 +116,12 @@ class MainWindow(QMainWindow):
             self,
             "Open file",
             "WordListMaker",
-            "Pdf text files (*.txt);;Excel files (*.xlsx)",
+            "Pdf files (*.pdf);;Pdf text files (*.txt);;Excel files (*.xlsx)",
         )
         if fname[0] == "":
             return []
+        if fname[1] == "Pdf files (*.pdf)":
+            return [fname[0],"pdf"]
         if fname[1] == "Pdf text files (*.txt)":
             return [open(fname[0],'rb'), "txt", fname[0]]
         elif fname[1] == "Excel files (*.xlsx)":

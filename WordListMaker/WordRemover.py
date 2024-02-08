@@ -1,5 +1,7 @@
 import re
 import pandas
+import os
+import shutil
 from SaveDataManager import *
 from ExcelManager import *
 from PdfManager import *
@@ -30,6 +32,17 @@ class WordRemover:
                 if id in wordIDs:
                     wordList.append(word)
                 id += 1
+        
+        if firstFile[1] == "pdf":
+            # pre is the part of file name before extension and ext is current extension
+            pre = os.path.dirname(firstFile[0]) + os.path.basename(firstFile[0])
+            ext = ".pdf"
+            pre, ext = os.path.splitext(firstFile[0])
+            shutil.copy(firstFile[0], pre + ext + "-Used.pdf")
+            os.rename(firstFile[0], pre + "-Used.txt")
+            PdfTxtFile = open(pre + ".txt",'rb')
+            excelFile = app.getExcel()
+            findMarkedWords(PdfTxtFile, excelFile)
             
         if firstFile[1] == "txt":
             PdfTxtFile = firstFile[0]
