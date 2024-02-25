@@ -3,6 +3,7 @@ A Python application designed for making Japanese vocabulary pdfs.
 
 ## Functionalities:
 This is a Python application that offers the following functionalities:
+* Converting Anki decks to Excel files.
 * Conversions between PDF and Excel files.
 * Removing Katakana words from Japanese Vocabulary study lists.
 * Shuffling the rows in an Excel file.
@@ -16,4 +17,4 @@ The purpose of this application is to create Japanese vocabulary lists in PDF fo
 To run this application, execute the "WordListMaker.py" file.
 
 ## Disclaimer:
-This application has only been tested using the Japanese N3 level vocabulary PDF from the [Tanos](https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf) website.
+Conversion of pdf files has only been tested using the Japanese N3 level vocabulary PDF from the [Tanos](https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf) website.
