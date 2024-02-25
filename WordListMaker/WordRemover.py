@@ -1,10 +1,11 @@
-import re
-import pandas
 import os
+import pandas
+import re
 import shutil
-from SaveDataManager import *
+
 from ExcelManager import *
 from PdfManager import *
+from SaveDataManager import *
 
 class WordRemover:
     def removeWords(app, getWords, isInverse):
@@ -33,22 +34,21 @@ class WordRemover:
                     wordList.append(word)
                 id += 1
         
-        if firstFile[1] == "pdf":
-            # pre is the part of file name before extension and ext is current extension
-            pre = os.path.dirname(firstFile[0]) + os.path.basename(firstFile[0])
-            ext = ".pdf"
-            pre, ext = os.path.splitext(firstFile[0])
-            shutil.copy(firstFile[0], pre + ext + "-Used.pdf")
-            os.rename(firstFile[0], pre + "-Used.txt")
-            PdfTxtFile = open(pre + ".txt",'rb')
+        if firstFile[1] == 'pdf':
+            preExtension = os.path.dirname(firstFile[0]) + os.path.basename(firstFile[0])
+            extension = '.pdf'
+            preExtension, ext = os.path.splitext(firstFile[0])
+            shutil.copy(firstFile[0], preExtension + extension + '-Used.pdf')
+            os.rename(firstFile[0], preExtension + '-Used.txt')
+            PdfTxtFile = open(preExtension + '.txt','rb')
             excelFile = app.getExcel()
             findMarkedWords(PdfTxtFile, excelFile)
             
-        if firstFile[1] == "txt":
+        if firstFile[1] == 'txt':
             PdfTxtFile = firstFile[0]
             excelFile = app.getExcel()
             findMarkedWords(PdfTxtFile, excelFile)
-        elif firstFile[1] == "xlsx":
+        elif firstFile[1] == 'xlsx':
             excelFile = firstFile[0]
         
         if len(firstFile) == 0 or len(wordList) == 0:
@@ -77,33 +77,33 @@ class WordRemover:
                 if len(newList[1]) > i:
                     outputList[index].append(newList[1][i])
                 else:
-                    outputList[index].append("*")
+                    outputList[index].append('*')
             if includeWord(i):
                 if len(newList[2]) > i:
                     outputList[index].append(newList[2][i])
                 else:
-                    outputList[index].append("*")
+                    outputList[index].append('*')
             if includeWord(i):
                 if len(newList[3]) > i:
                     outputList[index].append(newList[3][i])
                 else:
-                    outputList[index].append("*")
+                    outputList[index].append('*')
             if includeWord(i):
                 index += 1
             app.updateProgressBar(int(i / longestList * 100))
         df = pandas.DataFrame(outputList)
         try:
-            df.to_excel(SaveDataManager.read("FileName") + "-Output.xlsx", sheet_name="output")
+            df.to_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name='output')
         except PermissionError as e:
             print(e)
             app.updateFileStatus(2)
             return
         app.updateFileStatus(2)
         print(wordList)
-        print("Removed words count: " + (str(longestList - len(wordList)) if isInverse else str(len(wordList))) + " in " + SaveDataManager.read("FileName") + "-Output.xlsx")
+        print('Removed words count: ' + (str(longestList - len(wordList)) if isInverse else str(len(wordList))) + ' in ' + SaveDataManager.read('FileName') + '-Output.xlsx')
         
         if app.shuffleAndNewPdf:
-            excelFile = pd.read_excel(SaveDataManager.read("FileName") + "-Output.xlsx", sheet_name=0)
+            excelFile = pd.read_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name=0)
             ExcelManager.shuffleList(app, excelFile)
             PdfManager.convertToPdf(app, excelFile)
         

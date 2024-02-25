@@ -2,9 +2,6 @@ import japanize_matplotlib
 import pandas as pd
 import sys
 
-
-import fitz
-
 from functools import partial
 from PyQt6.QtCore import *
 from PyQt6.QtGui import *
@@ -25,7 +22,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
 
-        self.setWindowTitle("WordListMaker")
+        self.setWindowTitle('WordListMaker')
         self.setMinimumWidth(256)
         layout = QVBoxLayout()
 
@@ -43,59 +40,60 @@ class MainWindow(QMainWindow):
         layout.addWidget(fileNameWidget)
         fileNameLayout = QHBoxLayout()
         fileNameWidget.setLayout(fileNameLayout)
-        fileNameLabel = QLabel("File name")
+        fileNameLabel = QLabel('File name')
         fileNameLayout.addWidget(fileNameLabel)
         fileNameField = QTextEdit(self)
         fileNameField.setMaximumSize(192, 26)
-        fileNameField.setText(SaveDataManager.read("FileName"))
+        fileNameField.setText(SaveDataManager.read('FileName'))
         fileNameField.textChanged.connect(
-            partial(SaveDataManager.save, "FileName", fileNameField.toPlainText)
+            partial(SaveDataManager.save, 'FileName', fileNameField.toPlainText)
         )
         fileNameLayout.addWidget(fileNameField)
 
         buttons = []
 
-        buttons.append(QPushButton("Convert AnkiDeck to Excel file"))
+        buttons.append(QPushButton('Convert AnkiDeck to Excel file'))
         buttons[0].clicked.connect(partial(AnkiReader.convertToExcelFile, self))
         layout.addWidget(buttons[0])
 
-        buttons.append(QPushButton("Convert Pdf to Excel file"))
+        buttons.append(QPushButton('Convert Pdf to Excel file'))
         buttons[1].clicked.connect(partial(PdfManager.convertToExcelFile, self))
         layout.addWidget(buttons[1])
 
-        buttons.append(QPushButton("Convert to Pdf file"))
+        buttons.append(QPushButton('Convert to Pdf file'))
         buttons[2].clicked.connect(partial(PdfManager.convertToPdf, self, []))
         layout.addWidget(buttons[2])
 
-        buttons.append(QPushButton("Remove katakana words"))
+        buttons.append(QPushButton('Remove katakana words'))
         buttons[3].clicked.connect(partial(KatakanaRemover.removeKatakana, self))
         layout.addWidget(buttons[3])
 
-        buttons.append(QPushButton("Shuffle Excel list"))
+        buttons.append(QPushButton('Shuffle Excel list'))
         buttons[4].clicked.connect(partial(ExcelManager.shuffleList, self, []))
         layout.addWidget(buttons[4])
 
-        buttons.append(QPushButton("Generate Anki deck"))
+        buttons.append(QPushButton('Generate Anki deck'))
         buttons[5].clicked.connect(partial(AnkiDeckGenerator.GenerateAnkiDeck, self))
         layout.addWidget(buttons[5])
 
         input = QTextEdit(self)
-        buttons.append(QPushButton("Remove Words"))
+        buttons.append(QPushButton('Remove Words'))
         buttons[6].clicked.connect(
             partial(WordRemover.removeWords, self, input.toPlainText, False)
         )
         layout.addWidget(buttons[6])
 
-        buttons.append(QPushButton("Inverse Remove Words "))
+        buttons.append(QPushButton('Inverse Remove Words '))
         buttons[7].clicked.connect(
             partial(WordRemover.removeWords, self, input.toPlainText, True)
         )
         layout.addWidget(buttons[7])
 
-        shuffleRadio = QRadioButton("Shufffle list after removing words and make new PDF")
+        shuffleRadio = QRadioButton('Shufffle list after removing words and make new PDF')
         shuffleRadio.setChecked(True)
         def toggleShuffleAndNewPdf():
             MainWindow.shuffleAndNewPdf = not MainWindow.shuffleAndNewPdf
+            SaveDataManager.save('ShuffleAndNewPdf', str(MainWindow.shuffleAndNewPdf))
         shuffleRadio.clicked.connect(toggleShuffleAndNewPdf)
         layout.addWidget(shuffleRadio)
         layout.addWidget(input)
@@ -103,29 +101,29 @@ class MainWindow(QMainWindow):
     def getExcel(self):
         fname = QFileDialog.getOpenFileName(
             self,
-            "Open file",
-            "WordListMaker",
-            "Excel files (*.xlsx)",
+            'Open file',
+            'WordListMaker',
+            'Excel files (*.xlsx)',
         )
-        if fname[0] == "":
+        if fname[0] == '':
             return []
         return pd.read_excel(fname[0], sheet_name=0)
 
     def getExcelOrPdfTxt(self):
         fname = QFileDialog.getOpenFileName(
             self,
-            "Open file",
-            "WordListMaker",
-            "Pdf files (*.pdf);;Pdf text files (*.txt);;Excel files (*.xlsx)",
+            'Open file',
+            'WordListMaker',
+            'Pdf files (*.pdf);;Pdf text files (*.txt);;Excel files (*.xlsx)',
         )
-        if fname[0] == "":
+        if fname[0] == '':
             return []
-        if fname[1] == "Pdf files (*.pdf)":
-            return [fname[0],"pdf"]
-        if fname[1] == "Pdf text files (*.txt)":
-            return [open(fname[0],'rb'), "txt", fname[0]]
-        elif fname[1] == "Excel files (*.xlsx)":
-            return [pd.read_excel(fname[0], sheet_name=0), "xlsx", fname[0]]
+        if fname[1] == 'Pdf files (*.pdf)':
+            return [fname[0],'pdf']
+        if fname[1] == 'Pdf text files (*.txt)':
+            return [open(fname[0],'rb'), 'txt', fname[0]]
+        elif fname[1] == 'Excel files (*.xlsx)':
+            return [pd.read_excel(fname[0], sheet_name=0), 'xlsx', fname[0]]
 
     def updateProgressBar(self, value):
         if value < 100:
@@ -142,7 +140,6 @@ class MainWindow(QMainWindow):
             self.progressBar.hide()
             self.progressBar.setValue(0)
         self.progressBar.repaint()
-
 
 app = QApplication(sys.argv)
 window = MainWindow()

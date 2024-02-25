@@ -27,15 +27,15 @@ class ExcelManager():
       if len(newList[1]) > i:
           outputList[i].append(newList[1][i])
       else:
-          outputList[i].append("*")
+          outputList[i].append('*')
       if len(newList[2]) > i:
           outputList[i].append(newList[2][i])
       else:
-          outputList[i].append("*")  
+          outputList[i].append('*')  
       if len(newList[3]) > i:
           outputList[i].append(newList[3][i])
       else:
-          outputList[i].append("*")
+          outputList[i].append('*')
       app.updateProgressBar(int(i / longestList * 100))
       
     random.shuffle(outputList)

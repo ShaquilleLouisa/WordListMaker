@@ -5,7 +5,7 @@ class KatakanaRemover():
   def removeKatakana(app):
     def WordhasKatakana(word):
       for c in str(word):
-        if re.search(u"[\u30A0-\u30FF]", c):
+        if re.search(u'[\u30A0-\u30FF]', c):
           return True
       return False
     
@@ -32,17 +32,17 @@ class KatakanaRemover():
         if len(newList[1]) > i:
             outputList[index].append(newList[1][i])
         else:
-            outputList[index].append("*")
+            outputList[index].append('*')
       if not WordhasKatakana(newList[2][i]):
         if len(newList[2]) > i:
             outputList[index].append(newList[2][i])
         else:
-            outputList[index].append("*")  
+            outputList[index].append('*')  
       if not WordhasKatakana(newList[2][i]):
         if len(newList[3]) > i:
             outputList[index].append(newList[3][i])
         else:
-            outputList[index].append("*")
+            outputList[index].append('*')
       if WordhasKatakana(newList[2][i]):
         pass
       else:
@@ -50,7 +50,7 @@ class KatakanaRemover():
       app.updateProgressBar(int(i / longestList * 100))
     
     df = pandas.DataFrame(outputList)
-    df.to_excel("output.xlsx", sheet_name="output")
+    df.to_excel('output.xlsx', sheet_name='output')
     app.updateFileStatus(2)
     
     

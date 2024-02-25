@@ -27,7 +27,7 @@ class AnkiReader():
         def extractFromText():
             progress = 0
             lineCount = 0
-            with open(fileName,'r', encoding="utf-8") as file:
+            with open(fileName,'r', encoding='utf-8') as file:
                 lines = file.readlines()
                 lineCount = len(lines)
                 for line in lines:
@@ -54,7 +54,7 @@ class AnkiReader():
         
         def convertToExcel():
             df = pd.DataFrame(list)
-            df.to_excel("output.xlsx", sheet_name="output")
+            df.to_excel('output.xlsx', sheet_name='output')
             app.updateFileStatus(2)
 
         fileName = getAnki(app)
