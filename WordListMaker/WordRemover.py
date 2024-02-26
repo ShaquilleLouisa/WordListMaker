@@ -1,7 +1,5 @@
-import os
 import pandas
 import re
-import shutil
 
 from ExcelManager import *
 from PdfManager import *
@@ -18,13 +16,14 @@ class WordRemover:
             return word in wordList
         
         def findMarkedWords(PdfTxtFile, excelFile):
+            app.updateFileStatus(1)
             wordIDs = []
             for word in PdfTxtFile:
                 if '/Type/Annot/V/Yes' in str(word):
                     string = str(word)
                     start = string.find('checkbox')
                     checkBoxNumber = int(re.findall(r'\d+', string[start + 8:start+10])[0])
-                    pageNumber = int(re.findall(r'\d+', string[start + 12:start+14])[0])
+                    pageNumber = int(re.findall(r'\d+', string[start + 12:start+16])[0])
                     pNumber = (pageNumber * 20 if pageNumber > 0 else 1)
                     cNumber = (checkBoxNumber if pageNumber > 0 else checkBoxNumber -1)
                     wordIDs.append(pNumber + cNumber)
@@ -34,25 +33,23 @@ class WordRemover:
                     wordList.append(word)
                 id += 1
         
+        # No file selected
+        if len(firstFile) == 0:
+            return
+        
         if firstFile[1] == 'pdf':
-            preExtension = os.path.dirname(firstFile[0]) + os.path.basename(firstFile[0])
-            extension = '.pdf'
-            preExtension, ext = os.path.splitext(firstFile[0])
-            shutil.copy(firstFile[0], preExtension + extension + '-Used.pdf')
-            os.rename(firstFile[0], preExtension + '-Used.txt')
-            PdfTxtFile = open(preExtension + '.txt','rb')
-            excelFile = app.getExcel()
-            findMarkedWords(PdfTxtFile, excelFile)
-            
-        if firstFile[1] == 'txt':
             PdfTxtFile = firstFile[0]
             excelFile = app.getExcel()
+            if len(excelFile) == 0:
+                return
             findMarkedWords(PdfTxtFile, excelFile)
         elif firstFile[1] == 'xlsx':
             excelFile = firstFile[0]
         
-        if len(firstFile) == 0 or len(wordList) == 0:
+        # No words in inputField or found in pdf/xlsx
+        if len(wordList) == 0:
             return
+        
         app.updateFileStatus(1)
         newList = [[]]
         newList.append(excelFile[0])
@@ -103,7 +100,9 @@ class WordRemover:
         print('Removed words count: ' + (str(longestList - len(wordList)) if isInverse else str(len(wordList))) + ' in ' + SaveDataManager.read('FileName') + '-Output.xlsx')
         
         if app.shuffleAndNewPdf:
+            print("Shuffle")
             excelFile = pd.read_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name=0)
             ExcelManager.shuffleList(app, excelFile)
+            excelFile = pd.read_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name=0)
             PdfManager.convertToPdf(app, excelFile)
         

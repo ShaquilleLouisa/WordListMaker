@@ -119,9 +119,7 @@ class MainWindow(QMainWindow):
         if fname[0] == '':
             return []
         if fname[1] == 'Pdf files (*.pdf)':
-            return [fname[0],'pdf']
-        if fname[1] == 'Pdf text files (*.txt)':
-            return [open(fname[0],'rb'), 'txt', fname[0]]
+            return [open(fname[0],'rb'),'pdf']
         elif fname[1] == 'Excel files (*.xlsx)':
             return [pd.read_excel(fname[0], sheet_name=0), 'xlsx', fname[0]]
 
