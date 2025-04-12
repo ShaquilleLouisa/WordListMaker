@@ -2,12 +2,12 @@ class SaveDataManager():
     def load():
         data = []
         fileIsEmpty = True
-        with open('SaveData.txt','r', encoding='utf-8') as file:
+        with open('WordListMaker/SaveData.txt','r', encoding='utf-8') as file:
             for line in file:
                 fileIsEmpty = False
                 data.append(line.split())
         if fileIsEmpty:
-            with open('SaveData.txt', 'w') as f:
+            with open('WordListMaker/SaveData.txt', 'w') as f:
                 f.write('FileName output' + '\n' +
                         'ShuffleAndNewPdf True')
         return data
@@ -28,8 +28,8 @@ class SaveDataManager():
             new = newValue().split()[0]
         else: 
             new = newValue.split()[0]
-        open('SaveData.txt', 'w').close()
-        with open('SaveData.txt', 'w') as f:
+        open('WordListMaker/SaveData.txt', 'w').close()
+        with open('WordListMaker/SaveData.txt', 'w') as f:
             for dataPoint in data:
                 if dataPoint[0] == dataName and not dataPoint[1] == new:
                     f.write(dataName + ' ' + new + '\n')

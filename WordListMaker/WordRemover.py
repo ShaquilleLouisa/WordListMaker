@@ -6,8 +6,8 @@ from PdfManager import *
 from SaveDataManager import *
 
 class WordRemover:
-    def removeWords(app, getWords, isInverse):
-        wordList = getWords().split()
+    def removeWords(app, isInverse):#getWords, isInverse):
+        wordList = []#getWords().split()
         firstFile = app.getExcelOrPdfTxt()
         PdfTxtFile = []
         excelFile = []
@@ -27,6 +27,7 @@ class WordRemover:
                     pNumber = (pageNumber * 20 if pageNumber > 0 else 1)
                     cNumber = (checkBoxNumber if pageNumber > 0 else checkBoxNumber -1)
                     wordIDs.append(pNumber + cNumber)
+                    print(pNumber)
             id = 0
             for word in excelFile[1]:
                 if id in wordIDs:
@@ -48,6 +49,9 @@ class WordRemover:
         
         # No words in inputField or found in pdf/xlsx
         if len(wordList) == 0:
+            if firstFile[1] == 'pdf':
+                print("The pdf file has not been read correctly or there are no marked words in the file." + "\n" + 
+                      "saving the pdf file with changes could fix this.")
             return
         
         app.updateFileStatus(1)

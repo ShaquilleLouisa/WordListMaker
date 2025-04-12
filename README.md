@@ -17,6 +17,10 @@ The purpose of this application is to create Japanese vocabulary lists in PDF fo
 
 ## How to Run:
 To run this application, execute the "WordListMaker.py" file.
+I did not make a build of this application because this unfortunately, made the font of the created pdf's unreadable.
 
 ## Disclaimer:
 Conversion of pdf files has only been tested using the Japanese N3 level vocabulary PDF from the [Tanos](https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf) website.
+
+## API_KEY:
+If you make use of the generate senteces feature be sure to put your deepseek API key in a textfile in the API_KEY folder.

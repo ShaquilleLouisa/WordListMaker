@@ -14,6 +14,7 @@ from KatakanaRemover import *
 from PdfManager import *
 from SaveDataManager import *
 from WordRemover import *
+from SentenceGenerator import *
 
 class MainWindow(QMainWindow):
     japanize_matplotlib.japanize()
@@ -54,40 +55,45 @@ class MainWindow(QMainWindow):
 
         buttons.append(QPushButton('Convert AnkiDeck to Excel file'))
         buttons[0].clicked.connect(partial(AnkiReader.convertToExcelFile, self))
-        layout.addWidget(buttons[0])
+        #layout.addWidget(buttons[0])
 
         buttons.append(QPushButton('Convert Pdf to Excel file'))
         buttons[1].clicked.connect(partial(PdfManager.convertToExcelFile, self))
-        layout.addWidget(buttons[1])
+        #layout.addWidget(buttons[1])
 
         buttons.append(QPushButton('Convert to Pdf file'))
         buttons[2].clicked.connect(partial(PdfManager.convertToPdf, self, []))
-        layout.addWidget(buttons[2])
+        #layout.addWidget(buttons[2])
 
         buttons.append(QPushButton('Remove katakana words'))
         buttons[3].clicked.connect(partial(KatakanaRemover.removeKatakana, self))
-        layout.addWidget(buttons[3])
+        #layout.addWidget(buttons[3])
 
         buttons.append(QPushButton('Shuffle Excel list'))
         buttons[4].clicked.connect(partial(ExcelManager.shuffleList, self, []))
-        layout.addWidget(buttons[4])
+        #layout.addWidget(buttons[4])
 
-        buttons.append(QPushButton('Generate Anki deck'))
-        buttons[5].clicked.connect(partial(AnkiDeckGenerator.GenerateAnkiDeck, self))
+        #buttons.append(QPushButton('Generate Anki deck'))
+        #buttons[5].clicked.connect(partial(AnkiDeckGenerator.GenerateAnkiDeck, self))
+        #layout.addWidget(buttons[5])
+
+        buttons.append(QPushButton('Generate Sentences'))
+        buttons[5].clicked.connect(
+            partial(SentenceGenerator.generateSentences, self)#, input.toPlainText)
+        )
         layout.addWidget(buttons[5])
-
-        input = QTextEdit(self)
+        
         buttons.append(QPushButton('Remove Words'))
         buttons[6].clicked.connect(
-            partial(WordRemover.removeWords, self, input.toPlainText, False)
+            partial(WordRemover.removeWords, self, False)#, input.toPlainText, False)
         )
         layout.addWidget(buttons[6])
 
-        buttons.append(QPushButton('Inverse Remove Words '))
-        buttons[7].clicked.connect(
-            partial(WordRemover.removeWords, self, input.toPlainText, True)
-        )
-        layout.addWidget(buttons[7])
+        #buttons.append(QPushButton('Inverse Remove Words '))
+        #buttons[7].clicked.connect(
+            #partial(WordRemover.removeWords, self, input.toPlainText, True)
+        #)
+        #layout.addWidget(buttons[7])
 
         shuffleRadio = QRadioButton('Shufffle list after removing words and make new PDF')
         shuffleRadio.setChecked(True)
@@ -96,7 +102,8 @@ class MainWindow(QMainWindow):
             SaveDataManager.save('ShuffleAndNewPdf', str(MainWindow.shuffleAndNewPdf))
         shuffleRadio.clicked.connect(toggleShuffleAndNewPdf)
         layout.addWidget(shuffleRadio)
-        layout.addWidget(input)
+        #input = QTextEdit(self)
+        #layout.addWidget(input)
 
     def getExcel(self):
         fname = QFileDialog.getOpenFileName(
@@ -120,6 +127,18 @@ class MainWindow(QMainWindow):
             return []
         if fname[1] == 'Pdf files (*.pdf)':
             return [open(fname[0],'rb'),'pdf']
+        elif fname[1] == 'Excel files (*.xlsx)':
+            return [pd.read_excel(fname[0], sheet_name=0), 'xlsx', fname[0]]
+        
+    def getExcel(self):
+        fname = QFileDialog.getOpenFileName(
+            self,
+            'Open file',
+            'WordListMaker',
+            'Excel files (*.xlsx)',
+        )
+        if fname[0] == '':
+            return []
         elif fname[1] == 'Excel files (*.xlsx)':
             return [pd.read_excel(fname[0], sheet_name=0), 'xlsx', fname[0]]
 
