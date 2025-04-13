@@ -62,7 +62,7 @@ class MainWindow(QMainWindow):
         #layout.addWidget(buttons[1])
 
         buttons.append(QPushButton('Convert to Pdf file'))
-        buttons[2].clicked.connect(partial(PdfManager.convertToPdf, self, []))
+        buttons[2].clicked.connect(partial(PdfManager.convertToPdf, self, [], True, "-NoKatakanaShuffleRemoved-interactive"))
         #layout.addWidget(buttons[2])
 
         buttons.append(QPushButton('Remove katakana words'))

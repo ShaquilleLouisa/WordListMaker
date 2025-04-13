@@ -105,8 +105,8 @@ class WordRemover:
         
         if app.shuffleAndNewPdf:
             print("Shuffle")
-            excelFile = pd.read_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name=0)
+            excelFile = pd.read_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name='output')
             ExcelManager.shuffleList(app, excelFile)
-            excelFile = pd.read_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name=0)
-            PdfManager.convertToPdf(app, excelFile)
+            excelFile = pd.read_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name='output')
+            PdfManager.convertToPdf(app, excelFile, True, "-NoKatakanaShuffleRemoved-interactive")
         

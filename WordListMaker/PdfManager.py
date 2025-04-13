@@ -146,7 +146,7 @@ class PdfManager():
         df.to_excel('output.xlsx', sheet_name='output')
         app.updateFileStatus(2)
   
-    def convertToPdf(app, excelFile):
+    def convertToPdf(app, excelFile, addCheckBoxes, fileName, columnCount = 3):
         # Function to create an interactive checkbox
         x = 37
         y_interval = 35.75
@@ -172,10 +172,13 @@ class PdfManager():
             fig.patch.set_visible(False)
             ax.axis('off')
             ax.axis('tight')
-            data = {str(page + 1) + '/' + str(pageCount) : 'O',
-                'Kanji':content[0],
-                'Hiragana':content[1],
-                'English':content[2]}
+            if columnCount == 3:
+                data = {str(page + 1) + '/' + str(pageCount) : 'O',
+                    'Kanji':content[0],
+                    'Hiragana':content[1],
+                    'English':content[2]}
+            elif columnCount == 1:
+                data = {'Sentence':content[0]}
             df = pd.DataFrame(data)
             #df.insert(loc = 0,column = 'PPA',value = '<input type='checkbox' />')
             table = 0
@@ -184,23 +187,38 @@ class PdfManager():
             table.auto_set_column_width(False)
             table.set_fontsize(12)
             fig.set_size_inches(8.5, 11)
-            table.scale(1.2,1.3)
+            if columnCount > 1:
+                table.scale(1.2,1.3)
+            else:
+                table.scale(1.1,1.3)
             fig.subplots_adjust(left=0.1)
             
-            for y in range(4):
-                table.get_celld()[(0, y)].set_facecolor('lightgrey')
-                table.get_celld()[(0, y)].set_fontsize(20)
-                
-            for y in range(size):
-                for x in range(4):
-                    table.get_celld()[(20 - y,x)].set_alpha(0)
-                    table.get_celld()[(20 - y,x)].get_text().set_color('white')
+            if columnCount > 1:
+                for y in range(columnCount + 1):
+                    table.get_celld()[(0, y)].set_facecolor('lightgrey')
+                    table.get_celld()[(0, y)].set_fontsize(20)
+                for y in range(size):
+                    for x in range(columnCount + 1):
+                        table.get_celld()[(20 - y,x)].set_alpha(0)
+                        table.get_celld()[(20 - y,x)].get_text().set_color('white')
+            else:
+                table.get_celld()[(0, 0)].set_facecolor('lightgrey')
+                table.get_celld()[(0, 0)].set_fontsize(20)
+                #for y in range(size):
+                #    table.get_celld()[(20 - y,0)].set_alpha(0)
+                #    table.get_celld()[(20 - y,0)].get_text().set_color('white')
                     
             for y in range(21):
-                table.get_celld()[(y, 0)].set_width(0.07)
+                if columnCount > 1:
+                    table.get_celld()[(y, 0)].set_width(0.07)
+                else:
+                    table.get_celld()[(y, 0)].set_text_props(ha = 'left')#35
+                    table.get_celld()[(y, 0)].PAD = 0.02
                 #table.get_celld()[(y, 0)].get_text().set_color('white')
                 table.get_celld()[(y, 0)].set_fontsize(11)#35
-                table.get_celld()[(y, 3)].set_width(0.43)
+                
+                if columnCount == 3:
+                    table.get_celld()[(y, 3)].set_width(0.43)
                 
             pdf.savefig()
             plt.close()
@@ -210,6 +228,7 @@ class PdfManager():
                 originalList = app.getExcel()
             else:
                 originalList = excelFile
+            print(originalList)
             if len(originalList) == 0:
                 return []
             app.updateFileStatus(1)
@@ -219,16 +238,17 @@ class PdfManager():
             lastWord = pageCount * 20
             for page in range(pageCount):
                 newList.append([])
-                for y in range(3):
+                for y in range(columnCount):
                     newList[page].append([])
             for page in range(pageCount):
-                for y in range(3):
+                for y in range(columnCount):
                     for x in range(20):
                         if (page * 20) + x >= len(originalList[y]):
                             newList[page][y].append('*')
                             if lastPageSize == 0:
                                 lastPageSize = x
                         else:
+                            print(originalList[y][(page * 20) + x])
                             newList[page][y].append(originalList[y][(page * 20) + x])
                         app.updateProgressBar(int((page * 20 + x) / lastWord * 50))
             newList.append(lastPageSize)
@@ -252,37 +272,40 @@ class PdfManager():
                 else:
                     Copy(pdf,newList[page],0,page,pageCount)
                 count = newList[pageCount+1] if page == pageCount-1 else 20
-                for i in range(count):
-                    create_checkbox(
-                        c, x, y + i * -y_interval, size, 'checkbox' + str(i) + ' - ' + str(page)
-                    )
+                if addCheckBoxes:
+                    for i in range(count):
+                        create_checkbox(
+                            c, x, y + i * -y_interval, size, 'checkbox' + str(i) + ' - ' + str(page)
+                        )
                 c.showPage()
                 app.updateProgressBar(int(page / pageCount * 50) + 50)
         c.save()
 
         existing_pdf_path = 'output.pdf'
-        output_pdf_path = SaveDataManager.read('FileName') + '-NoKatakanaShuffleRemoved-interactive.pdf'
-
+        
         existing_pdf = PdfReader(open(existing_pdf_path, 'rb'))
+        output_pdf_path = SaveDataManager.read('FileName') + fileName + '.pdf'
 
         # Merge the overlay with the existing PDF
         output = PdfWriter()
-        overlay_pdf = PdfReader(overlay_pdf_path)
+        if addCheckBoxes:
+            overlay_pdf = PdfReader(overlay_pdf_path)
         output.add_metadata({
             '/Author': 'Shaquille Louisa',
-            '/Title': SaveDataManager.read('FileName') + '-NoKatakanaShuffleRemoved-interactive'
+            '/Title': SaveDataManager.read('FileName') + fileName
         })
+        
         for i in range(len(existing_pdf.pages)):
             page = existing_pdf.pages[i]
-            page.merge_page(overlay_pdf.pages[i])
-            
+            if addCheckBoxes:
+                page.merge_page(overlay_pdf.pages[i])
             output.add_page(page)
 
         # Save the final interactive PDF
         with open(output_pdf_path, 'wb') as out_pdf:
             output.write(out_pdf)
 
-        print('Interactive PDF saved to:', SaveDataManager.read('FileName') + '-NoKatakanaShuffleRemoved-interactive.pdf')
+        print('Interactive PDF saved to:', SaveDataManager.read('FileName') + fileName + '.pdf')
 
         app.updateFileStatus(2)
   
