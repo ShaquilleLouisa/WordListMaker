@@ -6,8 +6,8 @@ from PdfManager import *
 from SaveDataManager import *
 
 class WordRemover:
-    def removeWords(app, isInverse):#getWords, isInverse):
-        wordList = []#getWords().split()
+    def removeWords(app, getWords, isInverse):#getWords, isInverse):
+        wordList = getWords().split()
         firstFile = app.getExcelOrPdfTxt()
         PdfTxtFile = []
         excelFile = []
@@ -52,6 +52,7 @@ class WordRemover:
             if firstFile[1] == 'pdf':
                 print("The pdf file has not been read correctly or there are no marked words in the file." + "\n" + 
                       "saving the pdf file with changes could fix this.")
+            app.updateFileStatus(2)
             return
         
         app.updateFileStatus(1)
@@ -66,6 +67,7 @@ class WordRemover:
             longestList = len(newList[3])
 
         def includeWord(i):
+            print(str(i) + " " + str(len(newList[2])))
             return (wordIsInRemoveList(newList[2][i]) and isInverse) or (
                 not wordIsInRemoveList(newList[2][i]) and not isInverse)
         
@@ -94,7 +96,7 @@ class WordRemover:
             app.updateProgressBar(int(i / longestList * 100))
         df = pandas.DataFrame(outputList)
         try:
-            df.to_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name='output')
+            df.to_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name='output')#'output'
         except PermissionError as e:
             print(e)
             app.updateFileStatus(2)
@@ -105,8 +107,8 @@ class WordRemover:
         
         if app.shuffleAndNewPdf:
             print("Shuffle")
-            excelFile = pd.read_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name='output')
+            excelFile = pd.read_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name='output')#'output'
             ExcelManager.shuffleList(app, excelFile)
-            excelFile = pd.read_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name='output')
+            excelFile = pd.read_excel(SaveDataManager.read('FileName') + '-Output.xlsx', sheet_name='output')#'output'
             PdfManager.convertToPdf(app, excelFile, True, "-NoKatakanaShuffleRemoved-interactive")
         

@@ -83,9 +83,11 @@ class MainWindow(QMainWindow):
         )
         layout.addWidget(buttons[5])
         
+        input = QTextEdit(self)
+        
         buttons.append(QPushButton('Remove Words'))
         buttons[6].clicked.connect(
-            partial(WordRemover.removeWords, self, False)#, input.toPlainText, False)
+            partial(WordRemover.removeWords, self, input.toPlainText, False)#, input.toPlainText, False)
         )
         layout.addWidget(buttons[6])
 
@@ -102,7 +104,7 @@ class MainWindow(QMainWindow):
             SaveDataManager.save('ShuffleAndNewPdf', str(MainWindow.shuffleAndNewPdf))
         shuffleRadio.clicked.connect(toggleShuffleAndNewPdf)
         layout.addWidget(shuffleRadio)
-        #input = QTextEdit(self)
+        input = QTextEdit(self)
         #layout.addWidget(input)
 
     def getExcel(self):
