@@ -6,8 +6,8 @@ from PdfManager import *
 from SaveDataManager import *
 
 class WordRemover:
-    def removeWords(app, getWords, isInverse):#getWords, isInverse):
-        wordList = getWords().split()
+    def removeWords(app, isInverse):#getWords, isInverse):
+        wordList = []# getWords().split()
         firstFile = app.getExcelOrPdfTxt()
         PdfTxtFile = []
         excelFile = []

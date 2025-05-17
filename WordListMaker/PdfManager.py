@@ -228,7 +228,7 @@ class PdfManager():
                 originalList = app.getExcel()
             else:
                 originalList = excelFile
-            print(originalList)
+            print(originalList[0][0])
             if len(originalList) == 0:
                 return []
             app.updateFileStatus(1)

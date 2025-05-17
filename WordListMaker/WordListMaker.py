@@ -83,11 +83,9 @@ class MainWindow(QMainWindow):
         )
         layout.addWidget(buttons[5])
         
-        input = QTextEdit(self)
-        
         buttons.append(QPushButton('Remove Words'))
         buttons[6].clicked.connect(
-            partial(WordRemover.removeWords, self, input.toPlainText, False)#, input.toPlainText, False)
+            partial(WordRemover.removeWords, self, False)#, input.toPlainText, False)
         )
         layout.addWidget(buttons[6])
 
@@ -104,8 +102,6 @@ class MainWindow(QMainWindow):
             SaveDataManager.save('ShuffleAndNewPdf', str(MainWindow.shuffleAndNewPdf))
         shuffleRadio.clicked.connect(toggleShuffleAndNewPdf)
         layout.addWidget(shuffleRadio)
-        input = QTextEdit(self)
-        #layout.addWidget(input)
 
     def getExcel(self):
         fname = QFileDialog.getOpenFileName(
@@ -132,17 +128,17 @@ class MainWindow(QMainWindow):
         elif fname[1] == 'Excel files (*.xlsx)':
             return [pd.read_excel(fname[0], sheet_name=0), 'xlsx', fname[0]]
         
-    def getExcel(self):
-        fname = QFileDialog.getOpenFileName(
-            self,
-            'Open file',
-            'WordListMaker',
-            'Excel files (*.xlsx)',
-        )
-        if fname[0] == '':
-            return []
-        elif fname[1] == 'Excel files (*.xlsx)':
-            return [pd.read_excel(fname[0], sheet_name=0), 'xlsx', fname[0]]
+    # def getExcel(self):
+    #     fname = QFileDialog.getOpenFileName(
+    #         self,
+    #         'Open file',
+    #         'WordListMaker',
+    #         'Excel files (*.xlsx)',
+    #     )
+    #     if fname[0] == '':
+    #         return []
+    #     elif fname[1] == 'Excel files (*.xlsx)':
+    #         return [pd.read_excel(fname[0], sheet_name=0), 'xlsx', fname[0]]
 
     def updateProgressBar(self, value):
         if value < 100:

@@ -7,9 +7,9 @@ from SaveDataManager import *
 
 class SentenceGenerator:
     def generateSentences(app):
-        excelFile = pd.read_excel(SaveDataManager.read('FileName') + '-Sentences-Output.xlsx', sheet_name='output')
-        PdfManager.convertToPdf(app, excelFile, False, "-Sentences-Output", 1)
-        return
+        # excelFile = pd.read_excel(SaveDataManager.read('FileName') + '-Sentences-Output.xlsx', sheet_name='output')
+        # PdfManager.convertToPdf(app, excelFile, False, "-Sentences-Output", 1)
+        # return
         API_NAME = "DeepSeek" # OpenAI
         firstFile = app.getExcel()
         excelFile = []
@@ -69,7 +69,7 @@ class SentenceGenerator:
                     }
             elif API_NAME == "DeepSeek":
                 data = {
-                    "model": "openrouter/optimus-alpha", #"deepseek/deepseek-chat:free",
+                    "model": "deepseek/deepseek-chat:free",
                     "messages": [{"role": "user", "content": message}]
                     }
 
@@ -85,17 +85,14 @@ class SentenceGenerator:
                 return  response.json()['choices'][0]['message']['content']
             else:
                 print("Failed to fetch data from API. Status Code:", response.status_code)
-                print(response.json()['error']['message'])
+                print(response.json())
                 return ""
 
         # No file selected
         if len(firstFile) == 0:
             return
 
-        if firstFile[1] == 'xlsx':
-            excelFile = firstFile[0]
-        else:
-            return
+        excelFile = firstFile[0]
 
         app.updateFileStatus(1)
         newList = [[]]
